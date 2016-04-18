@@ -1,5 +1,3 @@
-# The Promise of "Psychiatric Growth Charts"
-
 * The importance of brain developmental trajectories
 * Previous findings with T1, quantitive relaxometry, DTI, DKI, NODDI, rs-fMRI and trajectories – brain age prediction
 * Impact of head motion on trajectories
