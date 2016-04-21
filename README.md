@@ -3,3 +3,4 @@ Notes on developmental trajectories, predicting brain maturation, effects of hea
 
 * [ANTs tutorial](http://rpubs.com/stnava/ANTsTut)
 * [multivariateTemplateConstruction.sh](https://github.com/stnava/ANTs/blob/master/Scripts/antsMultivariateTemplateConstruction.sh)
+* [SVR with 3dsvm](https://github.com/ccraddock/svr_iba)
