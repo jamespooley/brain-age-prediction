@@ -8,7 +8,7 @@
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4075590/
 * http://www.ncbi.nlm.nih.gov/pubmed/25620906
 * http://visielab.uantwerpen.be/sites/default/files/Kudzinava_2011_ISBI_ppt.pdf
-* 
+
 ### DKI
 
 * http://ajnrdigest.org/diffusional-kurtosis-imaging-developing-brain/
