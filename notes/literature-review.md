@@ -2,6 +2,7 @@
 
 * http://www.sciencedirect.com/science/article/pii/S1878929314000310
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4787204/
+* http://www.ncbi.nlm.nih.gov/pubmed/8698883
 
 ## Previous findings with T1, quantitive relaxometry, DTI, DKI, NODDI, rs-fMRI and trajectories – brain age prediction
 
