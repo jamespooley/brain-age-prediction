@@ -17,6 +17,8 @@
 
 ## Impact of head motion on trajectories
 
+* http://blogs.discovermagazine.com/neuroskeptic/2014/12/19/head-motion-structural-scans/#.VyD8qSaVvCI
+
 ## Motion correction strategies
 
 * http://mriquestions.com/reducing-motion-artifacts.html
