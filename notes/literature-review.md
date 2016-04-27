@@ -95,6 +95,8 @@ Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/
 
 ### DTI
 
+* [Predicting age of human subjects based on
+structural connectivity from di usion tensor imaging](http://arxiv.org/pdf/1405.5260.pdf)
 * [Growth trajectory of the early developing brain derived from 
 longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-2009-IADB-Gerig.pdf)
 
