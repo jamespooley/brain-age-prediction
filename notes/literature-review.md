@@ -20,6 +20,11 @@
 * http://visielab.uantwerpen.be/sites/default/files/Kudzinava_2011_ISBI_ppt.pdf
 * http://www.ajnr.org/content/35/4/808.long
 
+##E BrainAGE
+
+* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4403966/
+* http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067346
+
 ## Impact of head motion on trajectories
 
 * http://blogs.discovermagazine.com/neuroskeptic/2014/12/19/head-motion-structural-scans/#.VyD8qSaVvCI
