@@ -1,8 +1,11 @@
 ## The importance of brain developmental trajectories
 
 * http://www.sciencedirect.com/science/article/pii/S1878929314000310
+* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4787204/
 
 ## Previous findings with T1, quantitive relaxometry, DTI, DKI, NODDI, rs-fMRI and trajectories – brain age prediction
+
+* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4075590/
 
 ## Impact of head motion on trajectories
 
