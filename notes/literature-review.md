@@ -1,5 +1,7 @@
 ## The importance of brain developmental trajectories
 
+![Examples of Neurodevelopmental Trajectories](trajectories.jpg)
+
 * http://www.sciencedirect.com/science/article/pii/S1878929314000310
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4787204/
 * http://www.ncbi.nlm.nih.gov/pubmed/8698883
