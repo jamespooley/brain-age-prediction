@@ -12,8 +12,8 @@
 ### Quantitative Relaxometry Mapping
 
 * [Quantitative MRI for studying neonatal brain development](https://www.researchgate.net/profile/Revital_Nossin-Manor/publication/250924259_Quantitative_MRI_for_studying_neonatal_brain_development/links/0deec51f4c548b3d87000000.pdf)
-* http://www.ncbi.nlm.nih.gov/pubmed/8698883)
 * [T2 Relaxometry of Normal Pediatric Brain Development](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2767196/)
+* http://www.ncbi.nlm.nih.gov/pubmed/8698883)
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4075590/
 * http://www.ncbi.nlm.nih.gov/pubmed/25620906
 * http://visielab.uantwerpen.be/sites/default/files/Kudzinava_2011_ISBI_ppt.pdf
