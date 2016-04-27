@@ -5,6 +5,7 @@
 
 ## Previous findings with T1, quantitive relaxometry, DTI, DKI, NODDI, rs-fMRI and trajectories – brain age prediction
 
+* http://link.springer.com/article/10.1007%2Fs00234-013-1235-9
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4075590/
 * http://www.ncbi.nlm.nih.gov/pubmed/25620906
 * http://visielab.uantwerpen.be/sites/default/files/Kudzinava_2011_ISBI_ppt.pdf
