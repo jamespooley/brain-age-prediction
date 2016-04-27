@@ -136,7 +136,7 @@ Two general methods:
 
 ### Retrospective – impossible sMRI
 
-* https://brainder.org/2012/05/17/retrospective-motion-correction-for-structural-mri/
+* [Apparently not impossible with sMRI](https://brainder.org/2012/05/17/retrospective-motion-correction-for-structural-mri/)
 * http://hannes.nickisch.org/papers/articles/loktyushin13mrimocorr.pdf
 * http://cbs.fas.harvard.edu/science/core-facilities/neuroimaging/information-investigators/MRphysicsfaq#moco_struct
 
