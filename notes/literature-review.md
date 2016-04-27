@@ -20,7 +20,7 @@
 * http://visielab.uantwerpen.be/sites/default/files/Kudzinava_2011_ISBI_ppt.pdf
 * http://www.ajnr.org/content/35/4/808.long
 
-##E BrainAGE
+### BrainAGE
 
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4403966/
 * http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067346
