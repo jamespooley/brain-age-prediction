@@ -9,6 +9,8 @@
   adolescent populations is challenging, and even more so when dealing with
   subpopulations with psychiatric conditions.
 * Head movement and MRI imaging. Use ADHD as example. 
+* Good stuff on the challenges (and importance of addressing these challenges) involved with using pediatric populations in imaging studies is 
+  [here](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4834255/)
 
 > Mental illnesses are disorders of life trajectories beginning before birth and extending into older age. Longitudinal trajectory-based studies of the origins of mental illness during early development are the key to better diagnostic 
 and treatment tools for mentally ill patients. Had researchers taken a cross-
