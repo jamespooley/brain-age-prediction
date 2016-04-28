@@ -115,9 +115,8 @@ longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-200
 
 ![The BrainAGE Framework](brainage.png)
 
-BrainAGE is a well-validated kernel regression-based modeling framework that allows researchers to predict a subject's
-age from sMRI data. Support vector regression (SVR), where the input features
-are mapped to a higher-dimensional space. In this higher-dimensional feature space,
+BrainAGE is a well-validated kernel regression-based modeling framework that allows researchers to predict a subject's chronological 
+age from sMRI data. 
 
 Given a dataset of whole-brain sMRI data, BrainAGE can be used to assess
 neurodevelopment as follows:
