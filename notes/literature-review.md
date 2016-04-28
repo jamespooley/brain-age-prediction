@@ -192,6 +192,7 @@ According to the Poldrack et al. fMRI book:
 >particular brain regions. Because such errors would be more likely in cases of
 >large within-scan motion, these methods may paradoxically be best suited to
 >populations where the motion is relatively minor."**
+
 Kids with adhd certainly wouldn't be a population where motion is expected to
 be "relatively minor," so maybe this should be explored in a bit more detail.
 
