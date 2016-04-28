@@ -9,7 +9,7 @@
 * Obtaining and working with longitudinal datasets involving neonatal, infant, pediatric, and
   adolescent populations is challenging, and even more so when dealing with
   subpopulations with psychiatric conditions.
-* Head movement and MRI imaging. Use ADHD as example. 
+* Head movement and MRI. Use ADHD as example. 
 * Good stuff on the challenges (and importance of addressing these challenges) involved with using pediatric populations in imaging studies is 
   [here](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4834255/)
 
