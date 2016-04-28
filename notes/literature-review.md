@@ -8,6 +8,7 @@
 * Obtaining and working with longitudinal datasets involving neonatal, infant, pediatric, and
   adolescent populations is challenging, and even more so when dealing with
   subpopulations with psychiatric conditions.
+* Head movement and MRI imaging. Use ADHD as example. 
 
 > Mental illnesses are disorders of life trajectories beginning before birth and extending into older age. Longitudinal trajectory-based studies of the origins of mental illness during early development are the key to better diagnostic 
 and treatment tools for mentally ill patients. Had researchers taken a cross-
