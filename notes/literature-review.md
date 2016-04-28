@@ -195,5 +195,5 @@ the location of data acquisition at each timepoint.
 > Collecting several structural scans and manually selecting one without motion artifacts for the structural analysis seems to be a commonly used option even in the presence of a costly increase in scan time. This procedure can reduce the spurious motion effect, but does not completely eliminate it. Furthermore, it is difficult in many study groups to obtain even a single scan without visible motion artifacts. While a visual inspection of automatically generated results is always recommended, it is often up to the individual expert to decide whether to exclude or repeat a scan or not. Since even small and visually inconspicuous, yet consistent, motion artifacts might bias the results, we believe that reducing motion during the scan is currently the best option. Controlling for motion in the statistical analysis is a second alternative that ideally should go hand in hand with a correlation analysis between motion and the predictors of interest. [[source]](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4300248/)
 
 Global signal regression also used. Potential problem in rs-fMRI studies
-looking at iFC since global signal could be meaningful. Also, don't completely
+looking at iFC since global signal could be meaningful. Also, doesn't completely
 get rid of problem.
