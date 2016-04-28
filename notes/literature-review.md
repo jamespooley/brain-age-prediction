@@ -195,6 +195,7 @@ According to the Poldrack et al. fMRI book:
 
 Kids with ADHD certainly wouldn't be a population where motion is expected to
 be "relatively minor," so maybe this should be explored in a bit more detail.
+See if the PROMO papers mention this.
 
 Talk about
 [PROMO](http://lcn.salk.edu/publications/Revelant%20Publications/Brown%20-%20Prospective%20motion%20correction%202010.pdf)? Talk about spiral navigator scans?
