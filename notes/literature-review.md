@@ -5,6 +5,9 @@
 * Many psychiatric conditions now viewed as neurodevelopmental disorders.
 * The promise of mental "growth charts" is personalized "interventions at
   the developmental trajectory itself, rather than at cross-sectional symptoms." Focusing on the trajectory rather than the symptoms is important since clinical signs and symptoms often appear "relatively late in the disease process."
+* Obtaining and working with longitudinal datasets involving neonatal, infant, pediatric, and
+  adolescent populations is challenging, and even more so when dealing with
+  subpopulations with psychiatric conditions.
 
 > Mental illnesses are disorders of life trajectories beginning before birth and extending into older age. Longitudinal trajectory-based studies of the origins of mental illness during early development are the key to better diagnostic 
 and treatment tools for mentally ill patients. Had researchers taken a cross-
