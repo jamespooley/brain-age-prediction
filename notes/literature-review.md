@@ -125,7 +125,7 @@ longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-200
 
 ![The BrainAGE Framework](brainage.png)
 
-BrainAGE is a well-validated kernel regression-based modeling framework that allows researchers to predict a subject's chronological 
+BrainAGE is a general, well-validated, kernel regression-based modeling framework that allows researchers to predict a subject's chronological 
 age from sMRI data. 
 
 Given a dataset of whole-brain sMRI data, BrainAGE can be used to assess
