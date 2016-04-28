@@ -135,6 +135,8 @@ neurodevelopment as follows:
 * Train SVR on training set.
 * Use SVR to predict age of individuals in the test set.
 * Calculate BrainAGE Score (= predicted age - chronological age)
+* ...
+* Profit
 
 * http://www.sciencedirect.com/science/article/pii/S105381191200794X
 * http://www.neuro.uni-jena.de/pdf-files/Franke-NI12.pdf
