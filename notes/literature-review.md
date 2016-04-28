@@ -100,6 +100,7 @@ Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/
 structural connectivity from di usion tensor imaging](http://arxiv.org/pdf/1405.5260.pdf)
 * [Growth trajectory of the early developing brain derived from 
 longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-2009-IADB-Gerig.pdf)
+* http://www.sciencedirect.com/science/article/pii/S0736574813001019
 
 > Diffusion MRI is very sensitive to motion, due to phase shifts induced microscopically by diffusion-driven water molecular displacements, and macroscopically by head motion, cardiac pulsation and breathing. This sensitivity increases with the intensity and duration of gradient pulses, which are characterized by the b-value, the scalar that defines the amount of diffusion weighting in the experiment (Le Bihan et al., 2001). It can be reduced by synchronizing the acquisition with the source of motion, monitoring using “navigator echoes,” using specific protocols, applying real-time prospective motion and outlier detection methods; however, all of these may raise other problems such as increased acquisition times (Ordidge et al., 1994; Pipe, 1999; Kennedy and Zhong, 2004; Zwiers, 2010; Zhou et al., 2011b; Kober et al., 2012; Ling et al., 2012). Even though it is also possible, and even advisable, to correct subject motion using preprocessing techniques (see in preprocessing steps below), the best approach is still to use comfortable padding to adjust the participant's head, and to inform the subject in advance about the noise and the vibration of the bed. This vibration was recently reported as the cause of another artifact, known as vibration artifact. During the acquisition, strong gradients are applied causing low-frequency mechanical resonances of the MR system that lead to small brain tissue movements. When these movements occur in the direction of the diffusion-encoding gradient, phase offsets will occur inducing signal dropouts in DWI images. This kind of artifacts can be reduced increasing TR (with the drawback of reducing SNR) or using full k-space coverage combined with parallel imaging (e.g., GRAPPA) (Gallichan et al., 2010). It can also be compensated using methods such as phase-encoding reversal (COVIPER) (Mohammadi et al., 2012), implemented in Artifact Correction in Diffusion MRI (ACID) toolbox. [[source]](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3594764/)
 
@@ -108,21 +109,39 @@ longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-200
 * http://ajnrdigest.org/diffusional-kurtosis-imaging-developing-brain/
 * http://visielab.uantwerpen.be/sites/default/files/Kudzinava_2011_ISBI_ppt.pdf
 * http://www.ajnr.org/content/35/4/808.long
-* [Preliminary Evidence of Altered Gray and White
-Matter Microstructural Development in the Frontal
-Lobe of Adolescents With Attention-Deficit
-Hyperactivity Disorder: A Diffusional Kurtosis
-Imaging Study](http://onlinelibrary.wiley.com/doi/10.1002/jmri.22397/pdf)
+* [Preliminary Evidence of Altered Gray and White Matter Microstructural Development in the Frontal Lobe of Adolescents With Attention-Deficit Hyperactivity Disorder: A Diffusional Kurtosis Imaging Study](http://onlinelibrary.wiley.com/doi/10.1002/jmri.22397/pdf)
 
 ### BrainAGE
 
-![BrainAGE Framework](brainage.png)
+![The BrainAGE Framework](brainage.png)
 
+BrainAGE is a well-validated kernel regression-based modeling framework that allows researchers to predict a subject's
+age from sMRI data. Support vector regression (SVR), where the input features
+are mapped to a higher-dimensional space. In this higher-dimensional feature space,
+
+Given a dataset of whole-brain sMRI data, BrainAGE can be used to assess
+neurodevelopment as follows:
+* Create train/test split of the whole-brain sMRI data.
+* Train SVR on training set.
+* Use SVR to predict age of individuals in the test set.
+* Calculate BrainAGE Score (= predicted age - chronological age)
+
+* http://www.sciencedirect.com/science/article/pii/S105381191200794X
 * http://www.neuro.uni-jena.de/pdf-files/Franke-NI12.pdf
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4403966/
 * http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067346
 
 ## Impact of head motion on trajectories
+
+* [Subtle in-scanner motion biases automated measurement of brain anatomy from
+  in vivo MRI](http://onlinelibrary.wiley.com/doi/10.1002/hbm.23180/abstract)
+* Stockman M, Alexander-Bloch A, Raznahan A, Giedd J. Effects of Mild Motion
+  Artifact on Cortical Measures from Structural MRI. Poster presented at the
+  18th Annual Meeting of the Organization for Human Brain Mapping; Beijing,
+  China. 2012.
+* Alexander-Bloch et al., 2012 A. Alexander-Bloch, M. Stockman, L.S. Clasen, F. Lalonde, A. Raznahan, J.N.
+Giedd. In-scanner Motion Biases Automated Measures of Structural MRI Brain
+Morphometry. Society for Neuroscience Annual Meeting, New Orleans, LA (2012)
 
 * http://blogs.discovermagazine.com/neuroskeptic/2014/12/19/head-motion-structural-scans/#.VyD8qSaVvCI
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3563110/
@@ -137,6 +156,9 @@ Two general methods:
 * **Prospective:** Use motion-tracking data acquired during the scan to follow the subject with the gradient axes of the sequence, measuring the desired k-space data directly. 
 
 ### Prospective correction – measure during scan and adjust scanning parameters
+
+Prospective motion correction works by employing pulse sequences that modify
+the location of data acquisition at each timepoint.
 
 * http://ifa.hawaii.edu/~baranec/tt/Prospective_Motion_Correction_in_Brain_Imaging.pdf
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/
