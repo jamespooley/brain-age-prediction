@@ -175,6 +175,9 @@ Two general methods:
 Prospective motion correction works by employing pulse sequences that modify
 the location of data acquisition at each timepoint.
 
+Talk about
+[PROMO](http://lcn.salk.edu/publications/Revelant%20Publications/Brown%20-%20Prospective%20motion%20correction%202010.pdf)?
+
 * [Prospective motion correction of high-resolution magnetic resonance imaging
   data in children](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3146240/)
 * http://ifa.hawaii.edu/~baranec/tt/Prospective_Motion_Correction_in_Brain_Imaging.pdf
