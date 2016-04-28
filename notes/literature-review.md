@@ -130,6 +130,8 @@ longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-200
 BrainAGE is a general, well-validated, kernel regression-based modeling framework that allows researchers to predict a subject's chronological 
 age from sMRI data. 
 
+Describe SVR in more detail here? Assume it is known to all?
+
 Given a dataset of whole-brain sMRI data, BrainAGE can be used to assess
 neurodevelopment as follows:
 * Create train/test split of the whole-brain sMRI data.
