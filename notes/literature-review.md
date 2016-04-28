@@ -130,6 +130,8 @@ neurodevelopment as follows:
 * http://www.neuro.uni-jena.de/pdf-files/Franke-NI12.pdf
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4403966/
 * http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067346
+* [Multivariate Analyses Applied to Healthy Neurodevelopment in Fetal, Neonatal,
+  and Pediatric MRI](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4720794/)
 
 ## Impact of head motion on trajectories
 
