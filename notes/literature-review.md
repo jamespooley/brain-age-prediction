@@ -162,6 +162,9 @@ Morphometry. Society for Neuroscience Annual Meeting, New Orleans, LA (2012)
 
 * http://mriquestions.com/reducing-motion-artifacts.html
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/
+* If a general overview of the current state of motion correction in rs-fMRI
+  studies is needed, [this](http://www.ncbi.nlm.nih.gov/pubmed/25462692/)
+  overview is probably what to cite.
 
 Two general methods: 
 * **Retrospective:** Use information about the subject’s motion to estimate what k-space data would have been measured if the subject had not moved during scanning. 
