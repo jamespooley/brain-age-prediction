@@ -179,8 +179,8 @@ Prospective motion correction works by employing pulse sequences that modify
 the location of data acquisition at each timepoint.
 
 According to the Poldrack et al. fMRI book:
->"One relatively new developmentin fMRI methods is the availability of pulse
->sequences taht modify the location of the data acquisition at every timepoint
+>"One relatively new development in fMRI methods is the availability of pulse
+>sequences that modify the location of the data acquisition at every timepoint
 >in order to prospectively correct for head motion. This approach has the
 >benefit of creating a motion-corrected dataset without the need for any
 >interpolation. The use of prospective motion correction could be quite
