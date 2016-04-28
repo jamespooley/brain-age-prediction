@@ -133,6 +133,7 @@ neurodevelopment as follows:
 
 ## Impact of head motion on trajectories
 
+TODO: Get past paywall for the first article.
 * [Subtle in-scanner motion biases automated measurement of brain anatomy from
   in vivo MRI](http://onlinelibrary.wiley.com/doi/10.1002/hbm.23180/abstract)
 * Stockman M, Alexander-Bloch A, Raznahan A, Giedd J. Effects of Mild Motion
