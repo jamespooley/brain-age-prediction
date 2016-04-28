@@ -178,6 +178,23 @@ Two general methods:
 Prospective motion correction works by employing pulse sequences that modify
 the location of data acquisition at each timepoint.
 
+According to the Poldrack et al. fMRI book:
+>"One relatively new developmentin fMRI methods is the availability of pulse
+>sequences taht modify the location of the data acquisition at every timepoint
+>in order to prospectively correct for head motion. This approach has the
+>benefit of creating a motion-corrected dataset without the need for any
+>interpolation. The use of prospective motion correction could be quite
+>beneficial but it is important for users to consider the robustness of these
+>methods for their particular applications. **Since the online methods must use
+>quick and thus relatively simple methods for estimating the location of the
+>slices for the next timepoint, there could potentially be error in the
+>predicted slice location which could, for example, cause loss of data from
+>particular brain regions. Because such errors would be more likely in cases of
+>large within-scan motion, these methods may paradoxically be best suited to
+>populations where the motion is relatively minor."**
+Kids with adhd certainly wouldn't be a population where motion is expected to
+be "relatively minor," so maybe this should be explored in a bit more detail.
+
 Talk about
 [PROMO](http://lcn.salk.edu/publications/Revelant%20Publications/Brown%20-%20Prospective%20motion%20correction%202010.pdf)? Talk about spiral navigator scans?
 
