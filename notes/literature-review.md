@@ -5,6 +5,7 @@
 * Many psychiatric conditions now viewed as neurodevelopmental disorders.
 * The promise of mental "growth charts" is personalized "interventions at
   the developmental trajectory itself, rather than at cross-sectional symptoms." Focusing on the trajectory rather than the symptoms is important since clinical signs and symptoms often appear "relatively late in the disease process."
+* "cross-sectional and longitudinal effects in neuro-anatomical measurements are relatively small, making them easily obscured by distortions arising from patient and subject movement. In addition to lowering sensitivity, motion can also introduce systematic bias into statistical comparisons, since groups are commonly defined according to behavioral, clinical, and developmental variables that relate to differing levels of movement during data collection" [[source]](http://lcn.salk.edu/publications/Revelant%20Publications/Brown%20-%20Prospective%20motion%20correction%202010.pdf)
 * Obtaining and working with longitudinal datasets involving neonatal, infant, pediatric, and
   adolescent populations is challenging, and even more so when dealing with
   subpopulations with psychiatric conditions.
@@ -176,7 +177,7 @@ Prospective motion correction works by employing pulse sequences that modify
 the location of data acquisition at each timepoint.
 
 Talk about
-[PROMO](http://lcn.salk.edu/publications/Revelant%20Publications/Brown%20-%20Prospective%20motion%20correction%202010.pdf)?
+[PROMO](http://lcn.salk.edu/publications/Revelant%20Publications/Brown%20-%20Prospective%20motion%20correction%202010.pdf)? Talk about spiral navigator scans?
 
 * [Prospective motion correction of high-resolution magnetic resonance imaging
   data in children](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3146240/)
