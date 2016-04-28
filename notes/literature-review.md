@@ -108,6 +108,11 @@ longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-200
 * http://ajnrdigest.org/diffusional-kurtosis-imaging-developing-brain/
 * http://visielab.uantwerpen.be/sites/default/files/Kudzinava_2011_ISBI_ppt.pdf
 * http://www.ajnr.org/content/35/4/808.long
+* [Preliminary Evidence of Altered Gray and White
+Matter Microstructural Development in the Frontal
+Lobe of Adolescents With Attention-Deficit
+Hyperactivity Disorder: A Diffusional Kurtosis
+Imaging Study](http://onlinelibrary.wiley.com/doi/10.1002/jmri.22397/pdf)
 
 ### BrainAGE
 
