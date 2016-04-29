@@ -179,9 +179,9 @@ scans.
   the volume.
 * Some effects of this intra-volume motion
   (stolen from [here](http://onlinelibrary.wiley.com/doi/10.1002/hbm.23180/abstract)):
-    i. Blurring
-    ii. Ghosting
-    iii. Series of displaced image repetitions usally in the phase-encoded
+  * Blurring
+  * Ghosting
+  * Series of displaced image repetitions usally in the phase-encoded
     direction, depending on the llocation of the motion in k-space.
 * Discuss implications of the above for developmental trajectories and clinical
   applications.
