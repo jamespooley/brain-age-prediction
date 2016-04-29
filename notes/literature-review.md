@@ -104,9 +104,12 @@ prevention or early intervention in at-risk individuals with complex mental illn
 Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/neurodevelopment_workgroup_report_33553.pdf)
 * [Quantile rank maps: A new tool for understanding individual brain
   development](http://www.sciencedirect.com/science/article/pii/S1053811915000130)
-* http://www.sciencedirect.com/science/article/pii/S1878929314000310
-* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4787204/
-* http://www.ncbi.nlm.nih.gov/pubmed/8698883
+* [Methods and considerations for longitudinal structural brain imaging
+  analysis across development](http://www.sciencedirect.com/science/article/pii/S1878929314000310)
+* [Developmental brain trajectories in children with ADHD and controls: a
+  longitudinal neuroimaging study](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4787204/)
+* [Quantitative MRI of the temporal lobe, amygdala, and hippocampus in normal
+  human development: ages 4-18 years](http://www.ncbi.nlm.nih.gov/pubmed/8698883)
 * [How Does Your Cortex Grow?](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3157294/) -- Looks/sounds like it could be useful for a big picture overview
 
 ## Previous findings with T1, quantitive relaxometry, DTI, DKI, NODDI, rs-fMRI and trajectories – brain age prediction
