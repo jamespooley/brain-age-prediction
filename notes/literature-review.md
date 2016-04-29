@@ -127,6 +127,9 @@ longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-200
 
 * [Methods to detect, characterize, and remove motion artifact in resting
 state fMRI](http://cogns.northwestern.edu/cbmg/motion%20in%20resting%20state%20NI%202014.pdf)
+* If a general overview of the current state of motion correction in rs-fMRI
+  studies is needed, [this](http://www.ncbi.nlm.nih.gov/pubmed/25462692/)
+  overview is probably what to cite.
 
 ### BrainAGE
 
@@ -188,13 +191,17 @@ accelerated measurement methods like DESPOT use. Probably ignore this...
 
 * http://mriquestions.com/reducing-motion-artifacts.html
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/
-* If a general overview of the current state of motion correction in rs-fMRI
-  studies is needed, [this](http://www.ncbi.nlm.nih.gov/pubmed/25462692/)
-  overview is probably what to cite.
 
 Two general methods: 
 * **Retrospective:** Use information about the subject’s motion to estimate what k-space data would have been measured if the subject had not moved during scanning. 
 * **Prospective:** Use motion-tracking data acquired during the scan to follow the subject with the gradient axes of the sequence, measuring the desired k-space data directly. 
+
+Navigator scans require additional time, and this "time penalty" also comes up
+in PMC techniques that "estimate volunteer motion via the MRI signal...This
+time penalty is particularly problematic for rapid imaging sequences, such as
+Fast Low Angle Single Shot (FLASH) that have little or no dead time."[[source]](http://journal.frontiersin.org/article/10.3389/fnins.2015.00097/full) Pretty
+sure FLASH is just another name for a sequence used with despot approximations,
+so should probably explore this a bit.
 
 ### Prospective correction – measure during scan and adjust scanning parameters
 
