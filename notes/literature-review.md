@@ -172,6 +172,9 @@ Applications:
 
 ## Impact of head motion on trajectories
 
+General distinction drawn between bulk (inter-volume) and micro (intra-volume)
+movements.
+
 * Quantifying developmental trajectories relies on high-resolution structural
 scans.
 * Acquisition of high-resolution, whole-brain structural scans takes minutes, not seconds.
@@ -211,7 +214,7 @@ accelerated measurement methods like DESPOT use. Probably ignore this...
 ## Motion correction strategies
 
 Lots of research papers exclude motion-corrupted data. Everyone knows throwing
-away data is costly but it may be worthwhile to ackowledge this strategy.
+away data is costly but it may be worthwhile to acknowledge this strategy.
 
 * http://mriquestions.com/reducing-motion-artifacts.html
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/
@@ -230,7 +233,8 @@ so should probably explore this a bit.
 ### Prospective correction – measure during scan and adjust scanning parameters
 
 Prospective motion correction works by employing pulse sequences that modify
-the location of data acquisition at each timepoint.
+the location of data acquisition at each timepoint; i.e., real-time updating of
+the pulse sequence.
 
 According to the Poldrack et al. fMRI book:
 >"One relatively new development in fMRI methods is the availability of pulse
