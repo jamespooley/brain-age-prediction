@@ -138,7 +138,9 @@ state fMRI](http://cogns.northwestern.edu/cbmg/motion%20in%20resting%20state%20N
 BrainAGE is a general, well-validated, kernel regression-based modeling framework that allows researchers to predict a subject's chronological 
 age from sMRI data. 
 
-Describe SVR in more detail here? Assume it is known to all?
+Describe SVR in more detail here? Assume it is known to all? Could cite
+[this](http://alex.smola.org/papers/2004/SmoSch04.pdf)
+tutorial if something is needed.
 
 Given a dataset of whole-brain sMRI data, BrainAGE can be used to assess
 neurodevelopment as follows:
@@ -149,10 +151,10 @@ neurodevelopment as follows:
 * ...
 * Profit
 
-* http://www.sciencedirect.com/science/article/pii/S105381191200794X
-* http://www.neuro.uni-jena.de/pdf-files/Franke-NI12.pdf
-* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4403966/
-* http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067346
+Applications:
+* [Chronological age of children and adolescents](http://www.neuro.uni-jena.de/pdf-files/Franke-NI12.pdf)
+* [Accellerated atrophy after TBI](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4403966/)
+* [MCI -> Alzheimer's conversion](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067346)
 * [Multivariate Analyses Applied to Healthy Neurodevelopment in Fetal, Neonatal,
   and Pediatric MRI](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4720794/)
 
