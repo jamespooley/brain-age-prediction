@@ -172,7 +172,23 @@ Applications:
 
 ## Impact of head motion on trajectories
 
-Explain effects of *inter*- vs. *intra*-volume motion
+* Quantifying developmental trajectories relies on high-resolution structural
+scans.
+* Acquisition of high-resolution, whole-brain structural scans takes minutes, not seconds.
+* This provides plenty of time for a subject to move during the acquisition of
+  the volume.
+* Some effects of this intra-volume motion
+  (stolen from [here](http://onlinelibrary.wiley.com/doi/10.1002/hbm.23180/abstract)):
+    i. Blurring
+    ii. Ghosting
+    iii. Series of displaced image repetitions usally in the phase-encoded
+    direction, depending on the llocation of the motion in k-space.
+* Discuss implications of the above for developmental trajectories and clinical
+  applications.
+
+Explain effects of *inter*- vs. *intra*-volume motion. fMRI tends to focus on
+inter-volume motion, whereas sMRI tends to be concerned with intra-volume
+"micro-motion."
 
 * [Subtle in-scanner motion biases automated measurement of brain anatomy from
   in vivo MRI](http://onlinelibrary.wiley.com/doi/10.1002/hbm.23180/abstract)
