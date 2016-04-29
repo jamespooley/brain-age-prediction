@@ -123,6 +123,11 @@ longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-200
 * http://www.ajnr.org/content/35/4/808.long
 * [Preliminary Evidence of Altered Gray and White Matter Microstructural Development in the Frontal Lobe of Adolescents With Attention-Deficit Hyperactivity Disorder: A Diffusional Kurtosis Imaging Study](http://onlinelibrary.wiley.com/doi/10.1002/jmri.22397/pdf)
 
+### rs-fMRI
+
+* [Methods to detect, characterize, and remove motion artifact in resting
+state fMRI](http://cogns.northwestern.edu/cbmg/motion%20in%20resting%20state%20NI%202014.pdf)
+
 ### BrainAGE
 
 ![The BrainAGE Framework](brainage.png)
@@ -243,4 +248,5 @@ In the Poldrack et al. fMRI book, ICA is recommended as a general motion
 correction strategy, especially in the case of motion correction that can't be resolved
 using the typical "regress out the noise" strategy. May be worthwhile to talk
 about this or at least mention it and other data-driven approaches to
-retrospective denoising.
+retrospective denoising. [Here](http://www.ncbi.nlm.nih.gov/pubmed/25770991) is
+a relatively recent paper about this in the context of fMRI.
