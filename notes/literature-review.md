@@ -175,6 +175,11 @@ Applications:
 General distinction drawn between bulk (inter-volume) and micro (intra-volume)
 movements.
 
+[This](http://pubs.rsna.org/doi/10.1148/rg.313105115?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed)
+paper isn't directly related to the effects of motion on developmental
+trajectories, but it's a great overview of MR image artifacts (including head
+motion) more generally.
+
 * Quantifying developmental trajectories relies on high-resolution structural
 scans.
 * Acquisition of high-resolution, whole-brain structural scans takes minutes, not seconds.
@@ -185,8 +190,6 @@ scans.
   * Blurring
   * Ghosting
   * Series of displaced image repetitions usally in the phase-encoded
-    direction, depending on the llocation of the motion in k-space.
-* Discuss implications of the above for developmental trajectories and clinical
   applications.
 
 Explain effects of *inter*- vs. *intra*-volume motion. fMRI tends to focus on
