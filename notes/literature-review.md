@@ -238,3 +238,9 @@ image with a higher SNR and motion correction. The reference for this procedure 
 Global signal regression also used. Potential problem in rs-fMRI studies
 looking at iFC since global signal could be meaningful. Also, doesn't completely
 get rid of problem.
+
+In the Poldrack et al. fMRI book, ICA is recommended as a general motion
+correction strategy, especially in the case of motion correction that can't be resolved
+using the typical "regress out the noise" strategy. May be worthwhile to talk
+about this or at least mention it and other data-driven approaches to
+retrospective denoising.
