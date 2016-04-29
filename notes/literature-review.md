@@ -5,6 +5,7 @@ General Thoughts:
 * Talk in terms of distinctions between "motion CONTROL" (prospective) and "motion
   CORRECTION" (retrospective)? Not sure if this terminology is widely adopted
   but I kind of like it.
+* Don't talk too much about rs-fMRI.
 
 ## The importance of brain developmental trajectories
 
