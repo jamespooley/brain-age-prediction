@@ -154,6 +154,9 @@ Describe SVR in more detail here? Assume it is known to all? Could cite
 [this](http://alex.smola.org/papers/2004/SmoSch04.pdf)
 tutorial if something is needed.
 
+BrainAGE actually uses relevance vector regression, but probably don't need to
+go into this.
+
 Given a dataset of whole-brain sMRI data, BrainAGE can be used to assess
 neurodevelopment as follows:
 * LOOCV:
@@ -161,7 +164,7 @@ neurodevelopment as follows:
   * Use SVR to predict age of individuals in the test set.
   * Calculate BrainAGE Score (= predicted age - chronological age)
   * ...
-  * Profit
+* Profit
 
 Applications:
 * [Chronological age of children and adolescents](http://www.neuro.uni-jena.de/pdf-files/Franke-NI12.pdf)
