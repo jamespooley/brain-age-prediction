@@ -110,7 +110,7 @@ Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/
   longitudinal neuroimaging study](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4787204/)
 * [Quantitative MRI of the temporal lobe, amygdala, and hippocampus in normal
   human development: ages 4-18 years](http://www.ncbi.nlm.nih.gov/pubmed/8698883)
-* [How Does Your Cortex Grow?](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3157294/) -- Looks/sounds like it could be useful for a big picture overview
+* [How Does Your Cortex Grow?](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3157294/)
 
 ## Previous findings with T1, quantitive relaxometry, DTI, DKI, NODDI, rs-fMRI and trajectories – brain age prediction
 
@@ -122,10 +122,11 @@ infancy -> early childhood.
 * [Quantitative MRI for studying neonatal brain development](https://www.researchgate.net/profile/Revital_Nossin-Manor/publication/250924259_Quantitative_MRI_for_studying_neonatal_brain_development/links/0deec51f4c548b3d87000000.pdf)
 * [T2 Relaxometry of Normal Pediatric Brain Development](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2767196/)
 * [Investigating white matter development in infancy and early childhood using myelin water faction and relaxation time mapping](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3711836/)
-* http://www.ncbi.nlm.nih.gov/pubmed/8698883)
-* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4075590/
-* http://www.ncbi.nlm.nih.gov/pubmed/25620906
-* http://visielab.uantwerpen.be/sites/default/files/Kudzinava_2011_ISBI_ppt.pdf
+* [Structural MRI connectome in development: challenges of the changing brain](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4075590/)
+* [High-resolution diffusion kurtosis imaging at 3T enabled by advanced
+  post-processing](http://www.ncbi.nlm.nih.gov/pubmed/25620906)
+* [Optimized Workflow for Diffusion 
+Kurtosis Imaging of Newborns](http://visielab.uantwerpen.be/sites/default/files/Kudzinava_2011_ISBI_ppt.pdf)
 
 ### DTI
 
@@ -133,7 +134,8 @@ infancy -> early childhood.
 structural connectivity from di usion tensor imaging](http://arxiv.org/pdf/1405.5260.pdf)
 * [Growth trajectory of the early developing brain derived from 
 longitudinal MRI/DTI data](http://depts.washington.edu/bicg/documents/MICCAI-2009-IADB-Gerig.pdf)
-* http://www.sciencedirect.com/science/article/pii/S0736574813001019
+* [Quantitative evaluation of brain development using anatomical MRI and
+  diffusion tensor imaging](http://www.sciencedirect.com/science/article/pii/S0736574813001019)
 
 > Diffusion MRI is very sensitive to motion, due to phase shifts induced microscopically by diffusion-driven water molecular displacements, and macroscopically by head motion, cardiac pulsation and breathing. This sensitivity increases with the intensity and duration of gradient pulses, which are characterized by the b-value, the scalar that defines the amount of diffusion weighting in the experiment (Le Bihan et al., 2001). It can be reduced by synchronizing the acquisition with the source of motion, monitoring using “navigator echoes,” using specific protocols, applying real-time prospective motion and outlier detection methods; however, all of these may raise other problems such as increased acquisition times (Ordidge et al., 1994; Pipe, 1999; Kennedy and Zhong, 2004; Zwiers, 2010; Zhou et al., 2011b; Kober et al., 2012; Ling et al., 2012). Even though it is also possible, and even advisable, to correct subject motion using preprocessing techniques (see in preprocessing steps below), the best approach is still to use comfortable padding to adjust the participant's head, and to inform the subject in advance about the noise and the vibration of the bed. This vibration was recently reported as the cause of another artifact, known as vibration artifact. During the acquisition, strong gradients are applied causing low-frequency mechanical resonances of the MR system that lead to small brain tissue movements. When these movements occur in the direction of the diffusion-encoding gradient, phase offsets will occur inducing signal dropouts in DWI images. This kind of artifacts can be reduced increasing TR (with the drawback of reducing SNR) or using full k-space coverage combined with parallel imaging (e.g., GRAPPA) (Gallichan et al., 2010). It can also be compensated using methods such as phase-encoding reversal (COVIPER) (Mohammadi et al., 2012), implemented in Artifact Correction in Diffusion MRI (ACID) toolbox. [[source]](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3594764/)
 
