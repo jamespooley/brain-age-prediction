@@ -164,8 +164,9 @@ go into this.
 
 Given a dataset of whole-brain sMRI data, BrainAGE can be used to assess
 neurodevelopment as follows:
+* Dimensionality reduction via PCA
 * LOOCV:
-  * Train SVR on training set of T1-weighted structural scans.
+  * Train SVR with PCA-reduced features on training set of T1-weighted structural scans.
   * Use SVR to predict age of individuals in the test set.
   * Calculate BrainAGE Score (= predicted age - chronological age)
   * ...
