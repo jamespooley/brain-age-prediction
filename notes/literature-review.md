@@ -166,7 +166,6 @@ Applications:
 
 Explain effects of *inter*- vs. *intra*-volume motion
 
-TODO: Get past paywall for the first article.
 * [Subtle in-scanner motion biases automated measurement of brain anatomy from
   in vivo MRI](http://onlinelibrary.wiley.com/doi/10.1002/hbm.23180/abstract)
 * Stockman M, Alexander-Bloch A, Raznahan A, Giedd J. Effects of Mild Motion
@@ -194,6 +193,9 @@ Lots of stuff about blood flow messing up the steady-state assumption
 accelerated measurement methods like DESPOT use. Probably ignore this...
 
 ## Motion correction strategies
+
+Lots of research papers exclude motion-corrupted data. Everyone knows throwing
+away data is costly but it may be worthwhile to ackowledge this strategy.
 
 * http://mriquestions.com/reducing-motion-artifacts.html
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/
