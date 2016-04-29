@@ -171,6 +171,18 @@ Morphometry. Society for Neuroscience Annual Meeting, New Orleans, LA (2012)
 * http://blogs.discovermagazine.com/neuroskeptic/2014/12/19/head-motion-structural-scans/#.VyD8qSaVvCI
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3563110/
 
+### Effects of Head Motion on qMRI Maps
+
+According to the Deoni
+[review](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3613135/), artifacts
+caused by bulk movement and blood flow "bleed through" to relaxation time
+maps:
+> "Motion can be particularly troublesome in single slice acquisitions, where
+  the slice location may differ between inversion times, echo times, or flip
+  angles."
+> Lots of stuff about blood flow messing up the steady-state assumption
+> accelerated measurement methods like DESPOT use. Probably ignore this...
+
 ## Motion correction strategies
 
 * http://mriquestions.com/reducing-motion-artifacts.html
