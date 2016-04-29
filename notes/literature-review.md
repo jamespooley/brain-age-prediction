@@ -176,14 +176,6 @@ Explain effects of *inter*- vs. *intra*-volume motion
 
 * [Subtle in-scanner motion biases automated measurement of brain anatomy from
   in vivo MRI](http://onlinelibrary.wiley.com/doi/10.1002/hbm.23180/abstract)
-* Stockman M, Alexander-Bloch A, Raznahan A, Giedd J. Effects of Mild Motion
-  Artifact on Cortical Measures from Structural MRI. Poster presented at the
-  18th Annual Meeting of the Organization for Human Brain Mapping; Beijing,
-  China. 2012.
-* Alexander-Bloch et al., 2012 A. Alexander-Bloch, M. Stockman, L.S. Clasen, F. Lalonde, A. Raznahan, J.N.
-Giedd. In-scanner Motion Biases Automated Measures of Structural MRI Brain
-Morphometry. Society for Neuroscience Annual Meeting, New Orleans, LA (2012)
-
 * http://blogs.discovermagazine.com/neuroskeptic/2014/12/19/head-motion-structural-scans/#.VyD8qSaVvCI
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3563110/
 
