@@ -262,10 +262,12 @@ from this review:
 
 #### Advantages
 
-* Flexibility
-* Ensure data consistency and adequate sampling
+* Flexibility: can be applied to most imaging and spectroscopy sequences as
+  long as external tracking system is used.
+* Ensure data consistency and adequate sampling: fov follows object, so brain
+  can't move out of imaging volume.
 * Account for spin-history effects
-* Images available instantly
+* Images available instantly: useful for real-time fMRI but also sMRI
 
 #### Disadvantages/Challenges
 
