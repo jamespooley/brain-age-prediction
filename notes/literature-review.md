@@ -101,6 +101,8 @@ prevention or early intervention in at-risk individuals with complex mental illn
 * [Unraveling the Miswired Connectome: A Developmental Perspective](http://www.cell.com/neuron/references/S0896-6273%2814%2900780-6)
 * [Transformative Neurodevelopmental Research in 
 Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/neurodevelopment_workgroup_report_33553.pdf)
+* [Quantile rank maps: A new tool for understanding individual brain
+  development](http://www.sciencedirect.com/science/article/pii/S1053811915000130)
 * http://www.sciencedirect.com/science/article/pii/S1878929314000310
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4787204/
 * http://www.ncbi.nlm.nih.gov/pubmed/8698883
@@ -109,6 +111,9 @@ Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/
 ## Previous findings with T1, quantitive relaxometry, DTI, DKI, NODDI, rs-fMRI and trajectories – brain age prediction
 
 ### Quantitative Relaxometry Mapping
+
+Probably focus on Deoni et al.'s MWF and mcDESPOT stuff on WM development from
+infancy -> early childhood.
 
 * [Quantitative MRI for studying neonatal brain development](https://www.researchgate.net/profile/Revital_Nossin-Manor/publication/250924259_Quantitative_MRI_for_studying_neonatal_brain_development/links/0deec51f4c548b3d87000000.pdf)
 * [T2 Relaxometry of Normal Pediatric Brain Development](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2767196/)
@@ -150,7 +155,7 @@ state fMRI](http://cogns.northwestern.edu/cbmg/motion%20in%20resting%20state%20N
 BrainAGE is a general, well-validated, kernel regression-based modeling framework that allows researchers to predict a subject's chronological 
 age from sMRI data. 
 
-Describe SVR in more detail here? Assume it is known to all? Could cite
+Describe SVR or kernel methods in more detail here? Assume these are known to all? Could cite
 [this](http://alex.smola.org/papers/2004/SmoSch04.pdf)
 tutorial if something is needed.
 
