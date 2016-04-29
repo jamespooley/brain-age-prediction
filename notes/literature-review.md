@@ -1,5 +1,9 @@
 ## The importance of brain developmental trajectories
 
+General Thoughts:
+* What level should this be written at? E.g., talk in terms of k-space or less
+  technically?
+
 ![Examples of Neurodevelopmental Trajectories](trajectories.jpg)
 
 * Many psychiatric conditions now viewed as neurodevelopmental disorders.
