@@ -3,6 +3,7 @@
 General Thoughts:
 * What level should this be written at? E.g., talk in terms of k-space or less
   technically?
+* Add section on datasets used for SVR modeling
 
 ![Examples of Neurodevelopmental Trajectories](trajectories.jpg)
 
