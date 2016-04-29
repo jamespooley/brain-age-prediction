@@ -180,8 +180,9 @@ maps:
 > "Motion can be particularly troublesome in single slice acquisitions, where
   the slice location may differ between inversion times, echo times, or flip
   angles."
-> Lots of stuff about blood flow messing up the steady-state assumption
-> accelerated measurement methods like DESPOT use. Probably ignore this...
+
+Lots of stuff about blood flow messing up the steady-state assumption
+accelerated measurement methods like DESPOT use. Probably ignore this...
 
 ## Motion correction strategies
 
