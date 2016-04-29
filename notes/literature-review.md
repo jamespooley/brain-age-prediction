@@ -155,6 +155,8 @@ neurodevelopment as follows:
 
 ## Impact of head motion on trajectories
 
+Explain effects of *inter*- vs. *intra*-volume motion
+
 TODO: Get past paywall for the first article.
 * [Subtle in-scanner motion biases automated measurement of brain anatomy from
   in vivo MRI](http://onlinelibrary.wiley.com/doi/10.1002/hbm.23180/abstract)
