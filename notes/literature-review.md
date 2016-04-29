@@ -198,7 +198,7 @@ Two general methods:
 * **Retrospective:** Use information about the subject’s motion to estimate what k-space data would have been measured if the subject had not moved during scanning. 
 * **Prospective:** Use motion-tracking data acquired during the scan to follow the subject with the gradient axes of the sequence, measuring the desired k-space data directly. 
 
-Navigator scans require additional time, and this "time penalty" also comes up
+[Navigator scans](http://mriquestions.com/navigator-echoes.html) require additional time, and this "time penalty" also comes up
 in PMC techniques that "estimate volunteer motion via the MRI signal...This
 time penalty is particularly problematic for rapid imaging sequences, such as
 Fast Low Angle Single Shot (FLASH) that have little or no dead time."[[source]](http://journal.frontiersin.org/article/10.3389/fnins.2015.00097/full) Pretty
