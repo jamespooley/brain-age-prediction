@@ -330,7 +330,7 @@ image with a higher SNR and motion correction. The reference for this procedure 
 TODO: Find some good reference on "autofocusing" techniques.
 [This](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3376676/)? Are autofocusing
 techniques specifically applied to non-rigid motion? If so, probably minimize
-this because [this]()http://www.ncbi.nlm.nih.gov/pubmed/22570274) mentions
+this because [this](http://www.ncbi.nlm.nih.gov/pubmed/22570274) mentions
 that: "There is plenty of work remaining on non-rigid motion, although we see
 this more as a niche application in brain imaging, given that most of the
 problem cn be solved by rigid correction."
