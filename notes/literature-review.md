@@ -248,6 +248,32 @@ Prospective motion correction works by employing pulse sequences that modify
 the location of data acquisition at each timepoint; i.e., real-time updating of
 the pulse sequence.
 
+All of the following advantages and disadvantages/challenges of PMC are taken
+from this review: 
+* [Prospective motion correction of high-resolution magnetic resonance imaging
+  data in children](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3146240/)
+
+#### Advantages
+
+* Flexibility
+* Ensure data consistency and adequate sampling
+* Account for spin-history effects
+* Images available instantly
+
+#### Disadvantages/Challenges
+
+* Quality of tracking data
+* Marker fixation
+* MR compatibility
+* Higher-order motion
+* B0 inhomogeneities
+* Gradient imperfections
+* Nyquist ghost correction in EPI
+* B1 sensitivity profiles
+* The rigid body assumption
+* The global correction problem
+* Validation of results
+
 According to the Poldrack et al. fMRI book:
 >"One relatively new development in fMRI methods is the availability of pulse
 >sequences that modify the location of the data acquisition at every timepoint
