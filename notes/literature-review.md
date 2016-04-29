@@ -252,7 +252,8 @@ so should probably explore this a bit.
 
 Prospective motion correction works by employing pulse sequences that modify
 the location of data acquisition at each timepoint; i.e., real-time updating of
-the pulse sequence.
+the pulse sequence. In other words, it aims to "prevent the damage" rather than
+"reduce the damage."
 
 All of the following advantages and disadvantages/challenges of PMC are taken
 from this review: 
