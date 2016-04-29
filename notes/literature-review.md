@@ -1,5 +1,3 @@
-## The importance of brain developmental trajectories
-
 General Thoughts:
 * What level should this be written at? E.g., talk in terms of k-space or less
   technically?
@@ -7,6 +5,8 @@ General Thoughts:
 * Talk in terms of distinctions between "motion CONTROL" (prospective) and "motion
   CORRECTION" (retrospective)? Not sure if this terminology is widely adopted
   but I kind of like it.
+
+## The importance of brain developmental trajectories
 
 ![Examples of Neurodevelopmental Trajectories](trajectories.jpg)
 
