@@ -328,6 +328,12 @@ image with a higher SNR and motion correction. The reference for this procedure 
 ### Some techniques that try to minimize head motion artifacts during reconstruction
 
 TODO: Find some good reference on "autofocusing" techniques.
+[This](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3376676/)? Are autofocusing
+techniques specifically applied to non-rigid motion? If so, probably minimize
+this because [this]()http://www.ncbi.nlm.nih.gov/pubmed/22570274) mentions
+that: "There is plenty of work remaining on non-rigid motion, although we see
+this more as a niche application in brain imaging, given that most of the
+problem cn be solved by rigid correction."
 
 > Additionally, it is possible to combine [prospective and retrospective] methods so that retrospective processing corrects residual errors in the prospective system. A retrospective system can access all of the k-space data while performing reconstruction; a prospective system must necessarily rely only on previous measurements to estimate the current position of the patient. However, a prospective system avoids the need to estimate missing k-space data, allowing for direct reconstruction while avoiding possible sources of estimation error in the k-space data. [source](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/)
 
