@@ -156,12 +156,13 @@ tutorial if something is needed.
 
 Given a dataset of whole-brain sMRI data, BrainAGE can be used to assess
 neurodevelopment as follows:
-* Create train/test split of the whole-brain sMRI data.
-* Train SVR on training set.
-* Use SVR to predict age of individuals in the test set.
-* Calculate BrainAGE Score (= predicted age - chronological age)
-* ...
-* Profit
+* Create train/test split of T1-weighted structural scans.
+* LOOCV:
+  * Train SVR on training set.
+  * Use SVR to predict age of individuals in the test set.
+  * Calculate BrainAGE Score (= predicted age - chronological age)
+  * ...
+  * Profit
 
 Applications:
 * [Chronological age of children and adolescents](http://www.neuro.uni-jena.de/pdf-files/Franke-NI12.pdf)
