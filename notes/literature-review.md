@@ -280,6 +280,8 @@ image with a higher SNR and motion correction. The reference for this procedure 
 
 ### Some techniques that try to minimize head motion artifacts during reconstruction
 
+TODO: Find some good reference on "autofocusing" techniques.
+
 > Additionally, it is possible to combine [prospective and retrospective] methods so that retrospective processing corrects residual errors in the prospective system. A retrospective system can access all of the k-space data while performing reconstruction; a prospective system must necessarily rely only on previous measurements to estimate the current position of the patient. However, a prospective system avoids the need to estimate missing k-space data, allowing for direct reconstruction while avoiding possible sources of estimation error in the k-space data. [source](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/)
 
 * https://deepblue.lib.umich.edu/bitstream/handle/2027.42/62439/kpandey_1.pdf?sequence=1
