@@ -281,7 +281,7 @@ from this review:
 * B1 sensitivity profiles
 * The rigid body assumption
 * The global correction problem
-* Validation of results: No uncorrected reference image exists -> "This is
+* Validation of results: No uncorrected reference image exists (cf. RMC) -> "This is
   problematic in terms of the adoption and acceptance of the technique, because
   it will be difficult to show in patient studies (where controlled, repeatable motion cannot be use)  that the technique is truly helpful."
 
