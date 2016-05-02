@@ -107,6 +107,8 @@ prevention or early intervention in at-risk individuals with complex mental illn
 Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/neurodevelopment_workgroup_report_33553.pdf)
 * [Quantile rank maps: A new tool for understanding individual brain
   development](http://www.sciencedirect.com/science/article/pii/S1053811915000130)
+* [Trajectories of cortical thickness maturation in normal brain
+  development--The importance of quality control procedures](http://www.ncbi.nlm.nih.gov/pubmed/26463175)
 * [Methods and considerations for longitudinal structural brain imaging
   analysis across development](http://www.sciencedirect.com/science/article/pii/S1878929314000310)
 * [Developmental brain trajectories in children with ADHD and controls: a
