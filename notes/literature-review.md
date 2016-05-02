@@ -6,6 +6,7 @@ General Thoughts:
   CORRECTION" (retrospective)? Not sure if this terminology is widely adopted
   but I kind of like it.
 * Don't talk too much about rs-fMRI.
+* Add some bibliometrics
 
 ## The importance of brain developmental trajectories
 
@@ -22,7 +23,9 @@ General Thoughts:
 * Obtaining and working with longitudinal datasets involving neonatal, infant, pediatric, and
   adolescent populations is challenging, and even more so when dealing with
   subpopulations with psychiatric conditions.
-* Head movement and MRI. Use ADHD as example. 
+* Head movement and MRI. Use ADHD as example. ([Cortical Gray Matter in
+  Attention-Deficit/Hyperactivity Disorder: A Structural Magnetic Resonance
+  Imaging Study](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2829134/))
 * Good stuff on the challenges (and importance of addressing these challenges) involved with using pediatric populations in imaging studies is 
   [here](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4834255/)
 
