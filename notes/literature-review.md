@@ -281,7 +281,9 @@ from this review:
 * B1 sensitivity profiles
 * The rigid body assumption
 * The global correction problem
-* Validation of results
+* Validation of results: No uncorrected reference image exists -> "This is
+  problematic in terms of the adoption and acceptance of the technique, because
+  it will be difficult to show in patient studies (where controlled, repeatable motion cannot be use)  that the technique is truly helpful."
 
 According to the Poldrack et al. fMRI book:
 >"One relatively new development in fMRI methods is the availability of pulse
@@ -318,7 +320,7 @@ T1-weighted images into a series of shorter scans, each resulting in images
 with lower SNR than the image that would be produced by one long scanning
 session. These low(er) SNR images are then averaged, resulting in a structural
 image with a higher SNR and motion correction. The reference for this procedure is
-[here](http://onlinelibrary.wiley.com/doi/10.1002/hbm.20235/abstract).
+>here](http://onlinelibrary.wiley.com/doi/10.1002/hbm.20235/abstract).
 
 
 * [Apparently not impossible with sMRI](https://brainder.org/2012/05/17/retrospective-motion-correction-for-structural-mri/)
