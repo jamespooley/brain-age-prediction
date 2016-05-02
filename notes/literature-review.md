@@ -157,7 +157,13 @@ state fMRI](http://cogns.northwestern.edu/cbmg/motion%20in%20resting%20state%20N
   studies is needed, [this](http://www.ncbi.nlm.nih.gov/pubmed/25462692/)
   overview is probably what to cite.
 
-### BrainAGE
+### Modeling
+
+#### ADHD-200 Sample Preprocessed Data
+
+#### Regression Analysis
+
+#### BrainAGE Prediction
 
 ![The BrainAGE Framework](brainage.png)
 
