@@ -30,9 +30,9 @@ done
 for measure in ${measures[@]}; do
   for hemisphere in lh rh; do
     aparcstats2table --subjects $subj_list \
-                    --hemi $hemisphere \
-                    --meas $measure \
-                    --parc aparc.a2009s \
-                    --tablefile ${DATA_DIR}/${hemisphere}.a2009s.${measure}
+                     --hemi $hemisphere \
+                     --meas $measure \
+                     --parc aparc.a2009s \
+                     --tablefile ${DATA_DIR}/${hemisphere}.a2009s.${measure}
   done
 done
