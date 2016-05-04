@@ -334,7 +334,10 @@ Talk about
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/
 * http://journal.frontiersin.org/article/10.3389/fnins.2015.00097/full
 
-### Retrospective – impossible sMRI (Update: It's possible)
+### Retrospective – "impossible" sMRI
+
+It's technically possible using the procedures below, but this is not really
+what we're trying to get at so this stuff can pretty much be ignored.. Look into short- vs. long-term averaging for RMC
 
 RMC for sMRI involves breaking up the long scan needed for high-resolution
 T1-weighted images into a series of shorter scans, each resulting in images
