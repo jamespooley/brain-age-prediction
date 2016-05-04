@@ -221,6 +221,9 @@ Applications:
 
 ## Impact of head motion on trajectories
 
+This paper is great and does a lot of what we want(ed) to do. Also available
+[here](http://www.sciencedirect.com/science/article/pii/S1053811916301197) if
+you can get past the paywall. Great stuff.
 * [Motion and Morphometry in Clincial Populations](https://peerj.com/preprints/1363.pdf)
 
 General distinction drawn between bulk (inter-volume) and micro (intra-volume)
