@@ -127,6 +127,9 @@ Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/
   * Caudate
 
 ### Papers
+* [Developmental brain trajectories in children with ADHD and controls: a
+  longitudinal neuroimaging
+  study](http://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-016-0770-4)
 * [A review of attention-deficit/hyperactivity disorder from the perspective of
   brain networks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3654209/)
 * [Differences in brain structure and memory suggest adolescents may not "grow out of" ADHD](http://www.cam.ac.uk/research/news/differences-in-brain-structure-and-memory-suggest-adolescents-may-not-grow-out-of-adhd)
@@ -181,11 +184,7 @@ state fMRI](http://cogns.northwestern.edu/cbmg/motion%20in%20resting%20state%20N
 
 ### Modeling
 
-#### Datasets
-
-##### ADHD-200 Sample Preprocessed Data (Burner)
-
-##### ABIDE
+##### ADHD-200 Sample Preprocessed Data
 
 #### Regression Analysis
 
