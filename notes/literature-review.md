@@ -138,7 +138,7 @@ Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/
   meta-analysis](http://bmcpsychiatry.biomedcentral.com/articles/10.1186/1471-244X-8-51)
 * [Regional Volumetric Differences Based on Structural MRI in Children With Two
   Subtypes of ADHD and Controls](http://jad.sagepub.com/content/early/2014/12/05/1087054714559642.abstract)
-
+* [Very basic](https://autism-center.ucsd.edu/what-causes-autism/Pages/brain-research.aspx)
 
 ## Previous findings with T1, quantitive relaxometry, DTI, DKI, NODDI, rs-fMRI and trajectories – brain age prediction
 
@@ -266,6 +266,8 @@ Lots of stuff about blood flow messing up the steady-state assumption
 accelerated measurement methods like DESPOT use. Probably ignore this...
 
 ## Motion correction strategies
+
+TODO: get better handle on different prospective motion correction systems.
 
 Lots of research papers exclude motion-corrupted data. Everyone knows throwing
 away data is costly but it may be worthwhile to acknowledge this strategy.
