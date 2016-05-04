@@ -117,6 +117,24 @@ Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/
   human development: ages 4-18 years](http://www.ncbi.nlm.nih.gov/pubmed/8698883)
 * [How Does Your Cortex Grow?](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3157294/)
 
+
+## Structural Differences in Children with ADHD
+
+### ROIs to Consider
+* Basal Ganglia Regions
+  * Globus Pallidus
+  * Putamen
+  * Caudate
+
+### Papers
+* [A review of attention-deficit/hyperactivity disorder from the perspective of
+  brain networks](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3654209/)
+* [Differences in brain structure and memory suggest adolescents may not "grow out of" ADHD](http://www.cam.ac.uk/research/news/differences-in-brain-structure-and-memory-suggest-adolescents-may-not-grow-out-of-adhd)
+* [Structural brain change in Attention Deficit Hyperactivity Disorder
+  identified by
+  meta-analysis](http://bmcpsychiatry.biomedcentral.com/articles/10.1186/1471-244X-8-51)
+
+
 ## Previous findings with T1, quantitive relaxometry, DTI, DKI, NODDI, rs-fMRI and trajectories – brain age prediction
 
 ### Quantitative Relaxometry Mapping
@@ -300,24 +318,7 @@ from this review:
   problematic in terms of the adoption and acceptance of the technique, because
   it will be difficult to show in patient studies (where controlled, repeatable motion cannot be use)  that the technique is truly helpful."
 
-According to the Poldrack et al. fMRI book:
->"One relatively new development in fMRI methods is the availability of pulse
->sequences that modify the location of the data acquisition at every timepoint
->in order to prospectively correct for head motion. This approach has the
->benefit of creating a motion-corrected dataset without the need for any
->interpolation. The use of prospective motion correction could be quite
->beneficial but it is important for users to consider the robustness of these
->methods for their particular applications. **Since the online methods must use
->quick and thus relatively simple methods for estimating the location of the
->slices for the next timepoint, there could potentially be error in the
->predicted slice location which could, for example, cause loss of data from
->particular brain regions. Because such errors would be more likely in cases of
->large within-scan motion, these methods may paradoxically be best suited to
->populations where the motion is relatively minor."**
 
-Kids with ADHD certainly wouldn't be a population where motion is expected to
-be "relatively minor," so maybe this should be explored in a bit more detail.
-See if the PROMO papers mention this.
 
 Talk about
 [PROMO](http://lcn.salk.edu/publications/Revelant%20Publications/Brown%20-%20Prospective%20motion%20correction%202010.pdf)? Talk about spiral navigator scans?
@@ -366,9 +367,3 @@ Global signal regression also used. Potential problem in rs-fMRI studies
 looking at iFC since global signal could be meaningful. Also, doesn't completely
 get rid of problem.
 
-In the Poldrack et al. fMRI book, ICA is recommended as a general motion
-correction strategy, especially in the case of motion correction that can't be resolved
-using the typical "regress out the noise" strategy. May be worthwhile to talk
-about this or at least mention it and other data-driven approaches to
-retrospective denoising. [Here](http://www.ncbi.nlm.nih.gov/pubmed/25770991) is
-a relatively recent paper about this in the context of fMRI.
