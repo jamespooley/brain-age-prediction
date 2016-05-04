@@ -221,6 +221,8 @@ Applications:
 
 ## Impact of head motion on trajectories
 
+* [Motion and Morphometry in Clincial Populations](https://peerj.com/preprints/1363.pdf)
+
 General distinction drawn between bulk (inter-volume) and micro (intra-volume)
 movements.
 
@@ -368,3 +370,8 @@ Global signal regression also used. Potential problem in rs-fMRI studies
 looking at iFC since global signal could be meaningful. Also, doesn't completely
 get rid of problem.
 
+
+# Other Grants
+
+* [Longitudinal Imaging Study of ADHD Brain Development]
+(http://grantome.com/grant/NIH/R01-MH086654-02)
