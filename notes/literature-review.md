@@ -245,6 +245,9 @@ The gist of the paper:
 > than cortical thickness and contrast and were dependent on the segmentation
 > method used.
 
+
+### More on Head Motion and Structural MRI
+
 General distinction drawn between bulk (inter-volume) and micro (intra-volume)
 movements.
 
