@@ -372,14 +372,14 @@ Talk about
 ### Retrospective – "impossible" sMRI
 
 It's technically possible using the procedures below, but this is not really
-what we're trying to get at so this stuff can pretty much be ignored.. Look into short- vs. long-term averaging for RMC
+what we're trying to get at so this stuff can pretty much be ignored. Look into short- vs. long-term averaging for RMC
 
 RMC for sMRI involves breaking up the long scan needed for high-resolution
 T1-weighted images into a series of shorter scans, each resulting in images
 with lower SNR than the image that would be produced by one long scanning
 session. These low(er) SNR images are then averaged, resulting in a structural
 image with a higher SNR and motion correction. The reference for this procedure is
->[here](http://onlinelibrary.wiley.com/doi/10.1002/hbm.20235/abstract).
+[here](http://onlinelibrary.wiley.com/doi/10.1002/hbm.20235/abstract).
 
 
 * [Apparently not impossible with sMRI](https://brainder.org/2012/05/17/retrospective-motion-correction-for-structural-mri/)
