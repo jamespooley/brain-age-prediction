@@ -233,7 +233,12 @@ you can get past the paywall. Great stuff.
 * [Motion and Morphometry in Clincial Populations](https://peerj.com/preprints/1363.pdf)
 Looks like [Heath Pardoe](https://sites.google.com/site/hpardoe/) has a lot of other relevant things (scripts, papers, etc.). 
 
-The gist of the paper:
+#### How was motion measured?
+
+Motion during the sMRI scan was approximated by motion estimated from the
+rs-fMRI data.
+
+#### What were the main findings?
 > 2141 participants were included in our analyses. participant motion was higher
 > in all clinical groups compared with healthy controls. younger (age < 20 years)
 > and older (age > 40 years) people move more than individuals aged 20–40 years.
@@ -356,12 +361,12 @@ from this review:
 Talk about
 [PROMO](http://lcn.salk.edu/publications/Revelant%20Publications/Brown%20-%20Prospective%20motion%20correction%202010.pdf)? Talk about spiral navigator scans?
 
-* [Prospective motion correction of high-resolution magnetic resonance imaging
-  data in children](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3146240/)
-* [Prospective Real-Time Correction for Arbitrary Head Motion Using Active
-  Markers](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3033410/)
-* http://ifa.hawaii.edu/~baranec/tt/Prospective_Motion_Correction_in_Brain_Imaging.pdf
-* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/
+* [prospective motion correction of high-resolution magnetic resonance imaging
+  data in children](http://www.ncbi.nlm.nih.gov/pmc/articles/pmc3146240/)
+* [prospective real-time correction for arbitrary head motion using active
+  markers](http://www.ncbi.nlm.nih.gov/pmc/articles/pmc3033410/)
+* http://ifa.hawaii.edu/~baranec/tt/prospective_motion_correction_in_brain_imaging.pdf
+* http://www.ncbi.nlm.nih.gov/pmc/articles/pmc3320676/
 * http://journal.frontiersin.org/article/10.3389/fnins.2015.00097/full
 
 ### Retrospective – "impossible" sMRI
