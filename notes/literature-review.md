@@ -246,6 +246,8 @@ The gist of the paper:
 > method used.
 
 
+![Thickness-Age Relationship](thickness-age-gender.png)
+
 ### More on Head Motion and Structural MRI
 
 General distinction drawn between bulk (inter-volume) and micro (intra-volume)
