@@ -225,11 +225,25 @@ Applications:
 
 ## Impact of head motion on trajectories
 
+### Pardoe Paper
+
 This paper is great and does a lot of what we want(ed) to do. Also available
 [here](http://www.sciencedirect.com/science/article/pii/S1053811916301197) if
 you can get past the paywall. Great stuff.
 * [Motion and Morphometry in Clincial Populations](https://peerj.com/preprints/1363.pdf)
 Looks like [Heath Pardoe](https://sites.google.com/site/hpardoe/) has a lot of other relevant things (scripts, papers, etc.). 
+
+The gist of the paper:
+> 2141 participants were included in our analyses. Participant motion was higher
+> in all clinical groups compared with healthy controls. Younger (age < 20 years)
+> and older (age > 40 years) people move more than individuals aged 20–40 years.
+> Increased motion is associated with reduced average cortical thickness (− 0.014
+> mm thickness per mm motion, p = 0.0014) and cortical contrast (0.77% contrast
+> reduction per mm motion, p = 2.16 × 10− 9) in scans that have been
+> qualitatively assessed as free from motion artifact. Volumetric estimates were
+> also associated with motion, however the relationships were generally weaker
+> than cortical thickness and contrast and were dependent on the segmentation
+> method used.
 
 General distinction drawn between bulk (inter-volume) and micro (intra-volume)
 movements.
