@@ -234,13 +234,13 @@ you can get past the paywall. Great stuff.
 Looks like [Heath Pardoe](https://sites.google.com/site/hpardoe/) has a lot of other relevant things (scripts, papers, etc.). 
 
 The gist of the paper:
-> 2141 participants were included in our analyses. Participant motion was higher
-> in all clinical groups compared with healthy controls. Younger (age < 20 years)
+> 2141 participants were included in our analyses. participant motion was higher
+> in all clinical groups compared with healthy controls. younger (age < 20 years)
 > and older (age > 40 years) people move more than individuals aged 20–40 years.
-> Increased motion is associated with reduced average cortical thickness (− 0.014
+> increased motion is associated with reduced average cortical thickness (− 0.014
 > mm thickness per mm motion, p = 0.0014) and cortical contrast (0.77% contrast
 > reduction per mm motion, p = 2.16 × 10− 9) in scans that have been
-> qualitatively assessed as free from motion artifact. Volumetric estimates were
+> qualitatively assessed as free from motion artifact. volumetric estimates were
 > also associated with motion, however the relationships were generally weaker
 > than cortical thickness and contrast and were dependent on the segmentation
 > method used.
@@ -358,6 +358,8 @@ Talk about
 
 * [Prospective motion correction of high-resolution magnetic resonance imaging
   data in children](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3146240/)
+* [Prospective Real-Time Correction for Arbitrary Head Motion Using Active
+  Markers](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3033410/)
 * http://ifa.hawaii.edu/~baranec/tt/Prospective_Motion_Correction_in_Brain_Imaging.pdf
 * http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676/
 * http://journal.frontiersin.org/article/10.3389/fnins.2015.00097/full
