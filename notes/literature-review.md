@@ -192,6 +192,10 @@ state fMRI](http://cogns.northwestern.edu/cbmg/motion%20in%20resting%20state%20N
 
 ![The BrainAGE Framework](brainage.png)
 
+BrainAGE-style predictive modeling probably won't be the focus of the grant
+analyses, but there's a bunch of relevant stuff in that literature so I'll list
+some of it for future reference.
+
 BrainAGE is a general, well-validated, kernel regression-based modeling framework that allows researchers to predict a subject's chronological 
 age from sMRI data. 
 
@@ -225,6 +229,7 @@ This paper is great and does a lot of what we want(ed) to do. Also available
 [here](http://www.sciencedirect.com/science/article/pii/S1053811916301197) if
 you can get past the paywall. Great stuff.
 * [Motion and Morphometry in Clincial Populations](https://peerj.com/preprints/1363.pdf)
+Looks like [Heath Pardoe](https://sites.google.com/site/hpardoe/) has a lot of other relevant things (scripts, papers, etc.). 
 
 General distinction drawn between bulk (inter-volume) and micro (intra-volume)
 movements.
