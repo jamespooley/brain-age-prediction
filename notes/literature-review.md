@@ -247,6 +247,7 @@ The gist of the paper:
 
 
 ![Thickness-Age Relationship](thickness-age-gender.png)
+![Total Gray Matter Volume-Age Relationship](totalgrayv-age-gender.png)
 
 ### More on Head Motion and Structural MRI
 
