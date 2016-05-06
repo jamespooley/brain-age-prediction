@@ -1,12 +1,6 @@
 General Thoughts:
-* What level should this be written at? E.g., talk in terms of k-space or less
-  technically?
-* Add section on datasets used for SVR modeling
-* Talk in terms of distinctions between "motion CONTROL" (prospective) and "motion
-  CORRECTION" (retrospective)? Not sure if this terminology is widely adopted
-  but I kind of like it.
 * Don't talk too much about rs-fMRI.
-* Add some bibliometrics
+* Add bibliometrics
 
 ## The importance of brain developmental trajectories
 
