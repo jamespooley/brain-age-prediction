@@ -119,6 +119,11 @@ Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/
   * Globus Pallidus
   * Putamen
   * Caudate
+* Frontal Lobes
+* Parietal Lobes
+* Corpus Callosum
+* Cerebellum
+* Right Frontal-Basal Ganglia Circuitry
 
 ### Papers
 * [Developmental brain trajectories in children with ADHD and controls: a
