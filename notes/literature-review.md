@@ -235,8 +235,10 @@ Looks like [Heath Pardoe](https://sites.google.com/site/hpardoe/) has a lot of o
 
 #### How was motion measured?
 
-Motion during the sMRI scan was approximated by motion estimated from the
-rs-fMRI data.
+Motion during the sMRI scan was estimated in two ways:
+1. Coregistration of sequantial rs-fMRI image volumes
+2. Qualitative assessment by reviewer blind to participant demographics amd
+   phenotypic information
 
 #### What were the main findings?
 > 2141 participants were included in our analyses. participant motion was higher
