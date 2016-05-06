@@ -255,6 +255,7 @@ Motion during the sMRI scan was estimated in two ways:
 > method used.
 
 
+![Motion Estimates](motion.png)
 ![Thickness-Age Relationship](thickness-age-gender.png)
 ![Total Gray Matter Volume-Age Relationship](totalgrayv-age-gender.png)
 
