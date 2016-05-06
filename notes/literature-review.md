@@ -119,7 +119,8 @@ Mental Illness ](http://www.nimh.nih.gov/about/advisory-boards-and-groups/namhc/
   * Globus Pallidus
   * Putamen
   * Caudate
-* Frontal Lobes
+* Frontal Lobes: Cross-sectional studies show delayed cortical thickness
+  trajectories 
 * Parietal Lobes
 * Corpus Callosum
 * Cerebellum
