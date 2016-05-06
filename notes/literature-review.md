@@ -236,7 +236,7 @@ Looks like [Heath Pardoe](https://sites.google.com/site/hpardoe/) has a lot of o
 #### How was motion measured?
 
 Motion during the sMRI scan was estimated in two ways:
-  * Coregistration of sequantial rs-fMRI image volumes
+  * Coregistration (via `mcflirt`) of sequantial rs-fMRI image volumes
   * Qualitative assessment by reviewer blind to participant demographics and
    phenotypic information
 
