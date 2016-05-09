@@ -4,11 +4,9 @@
 
 ### The Importance of Neurodevelopmental Trajectories
 
-A recent trend in developmental neuroscience is the construction trajectories of neurodevelopment. 
+A recent trend in developmental neuroscience is the construction trajectories of neurodevelopment. These approaches provide a gross anatomical complement to tractography studies, which map the "miswiring" of the brain.
 
-Clinicians and researchers now view many of the most common and and debilitating psychiatric conditions as neurodevelopmental disorders. Viewed in this light, one strategy for diagnosing conditions as diverse as attention deficit hyperactivity disorder (ADHD), autism, and schizophrenia is to identify their non-normative patterns of brain development, rather than focusing on behavioral symptomology.
-
-The hope is that identifying non-normative neurodevelopmental trajectories, 
+Clinicians and researchers now view many of the most common and and debilitating psychiatric conditions as neurodevelopmental disorders. Viewed in this light, one strategy for diagnosing conditions as diverse as attention deficit hyperactivity disorder (ADHD), autism, and schizophrenia is to identify their non-normative patterns of brain development, rather than focusing on overt behavioral symptoms. The hope is that by identifying non-normative neurodevelopmental trajectories, drug- or behavior-based interventions can be targeted toward putting an individual back on the road towards the normative trajectory of brain development. 
 
 Rather than viewing the absolute size of brain structures in isolation, neurodevelopmental trajectories will lead the way toward neurological analogs of "growth charts" used by physicians .to identify aberrant patterns of growth.
 
@@ -30,6 +28,8 @@ High quality T1-weighted anatomical scans require time to acquire, with longer s
 
 
 ## Effect of Motion on Morphometric and Volumetric Estimates
+
+Using the task- or resting state-derived EPI images, researchers can obtain a proxy for motion during the structural scan (see Alexander-Bloch et al., 2016). 
 
 There now exists a large literature on the effects of motion in the rs-fMRI literature. However, given the nature of sMRI acquisition, motion correction for sMRI is still an open issue.
  
@@ -76,16 +76,18 @@ Very preliminary and experimental approach to motion correction uses trial-and-e
 
 One final approach to dealing with subject motion is to control for the effects of motion by adding group-level motion covariates in regression analyses. Such covariates are obtained via ...
 
+
 ## Proposed Research
+
 
 ## References
 
 * Pardoe et al. (in press). [Motion and morphometry in clincial and nonclinical populations.](http://www.sciencedirect.com/science/article/pii/S1053811916301197) *NeuroImage.*
-* Di Martino et al. (2015). Unraveling the miswired connectome: A developmental perspective. *Neuron.*
-* Maclaren, J. et al. (2013). Prospective motion correction in brain imaging: A review. *Magnetic Resonance in Medicine.*
+* Di Martino et al. (2014). [Unraveling the miswired connectome: A developmental perspective.](http://www.sciencedirect.com/science/article/pii/S0896627314007806) *Neuron.*
+* Maclaren, J. et al. (2013). [Prospective motion correction in brain imaging: A review.](http://onlinelibrary.wiley.com/doi/10.1002/mrm.24314/full) *Magnetic Resonance in Medicine.*
 * Maclaren, J. et al. (2015). [Motion artifacts in MRI: A complex problem with many partial solutions.](http://onlinelibrary.wiley.com/doi/10.1002/jmri.24850/abstract) *Journal of Magnetic Resonance Imaging*
-* Reuter, M. et al. (2015). Head motion during MRI acquisition reduces gray matter volume and thickness estimates. *NeuroImage.*
-* The ADHD-200 Consortium: A model to advance the translational potential of neuroimaging in clinical neuroscience. *Frontiers in Systems Neuroscience.*
-* Geidd, J. N., & Rapoport, J. L. (2010). Structural MRI of pediatric brain development: What have we learned and where are we going? *Neuron.*
-* Alexander-Bloch, A., et al. (2016). Subtle in-scanner motion biases automated measurement of brain anatomy from in vivo MRI. *Human Brain Mapping.*
+* Reuter, M. et al. (2015). [Head motion during MRI acquisition reduces gray matter volume and thickness estimates.](http://www.sciencedirect.com/science/article/pii/S1053811914009975) *NeuroImage.*
+* The ADHD-200 Consortium (2012). [The ADHD-200 Consortium: A model to advance the translational potential of neuroimaging in clinical neuroscience.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3433679/) *Frontiers in Systems Neuroscience.*
+* Geidd, J. N., & Rapoport, J. L. (2010). [Structural MRI of pediatric brain development: What have we learned and where are we going? *Neuron.](http://www.sciencedirect.com/science/article/pii/S0896627310006835)*
+* Alexander-Bloch, A., et al. (2016). [Subtle in-scanner motion biases automated measurement of brain anatomy from in vivo MRI.](http://www.sciencedirect.com/science/article/pii/S0896627310006835) *Human Brain Mapping.*
 * Aksoy, M. et al. (2012). [Hybrid prospective and retrospective head motion correction to mitigate cross-calibration errors.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3213297/) *Magnetic Resonance in Medicine.*
