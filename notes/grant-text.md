@@ -4,9 +4,11 @@
 
 ### The Importance of Neurodevelopmental Trajectories
 
-A recent trend in developmental neuroscience is the construction trajectories of neurodevelopment. These approaches provide a gross anatomical complement to tractography studies, which map the "miswiring" of the brain. Rather than examining the absolute size or thickness of brain structures in isolation, it is increasingly acknowledged that the dynamic *pattern* of growth and development of these structures holds more information and clinical potential.
+A recent trend in developmental neuroscience is a shift away from cross-sectional examinations of isolated brain structures towards longitudinal studies of trajectories of neurodevelopment in single individuals. Such developmental trajectories provide a gross anatomical complement to tractography studies, which map the "mis-wiring" of the brain. Rather than examining the absolute size or thickness of brain structures in isolation, it is increasingly acknowledged that the dynamic *pattern* of growth and development of these structures holds more information and clinical potential.
 
-Clinicians and researchers now view many of the most common and and debilitating psychiatric conditions as neurodevelopmental disorders. Viewed in this light, one strategy for diagnosing conditions as diverse as attention deficit hyperactivity disorder (ADHD), autism spectrum disorder (ASD), and schizophrenia is to identify their non-normative patterns of brain development, rather than focusing on overt behavioral symptoms. The hope is that by identifying non-normative neurodevelopmental trajectories, drug- or behavior-based interventions can be targeted toward putting an individual back on the road towards the normative trajectory of brain development. 
+As Geidd and Rapaport (2010, p. 730) noted in the context of ADHD , "clinical improvement is often mirrored by a convergence of developmental trajectories toward typical development and that persistence of ADHD is accompanied by a progressive divergence away from typical development."
+
+Clinicians and researchers now view many of the most common and and debilitating psychiatric conditions as neurodevelopmental disorders. Viewed in this light, one strategy for diagnosing conditions such as attention deficit hyperactivity disorder (ADHD), autism spectrum disorder, and schizophrenia is to identify their characteristic non-normative patterns of brain development, rather than focusing on overt behavioral symptoms. The hope is that by identifying non-normative neurodevelopmental trajectories, drug- or behavior-based interventions can be targeted toward putting an individual back on the road towards the normative trajectory of brain development. 
 
 Rather than assessing the absolute size of brain structures in isolation, neurodevelopmental trajectories will lead the way toward neurological analogs of "growth charts" used by physicians to identify aberrant patterns of growth.
 
@@ -18,25 +20,31 @@ structural MRI (sMRI)
 
 ### Estimating Neurodevelopmental Trajectories
 
-The starting point for the estimation of neurodevelopmental trajectories is the acquisition of high-quality T1-weighted anatomical scans.
+The starting point for the estimation of neurodevelopmental trajectories is the acquisition of high-resolution T1-weighted anatomical scans.
 
 * Skull stripping
 * Registration
-* FSL/ANTS magic
+* FSL/ANTS extraction magic
 
 
 ### Previous Findings in the Context of ADHD
 
+Developmental delay in the thickness of the frontal lobes has been found in ADHD (Geidd & Rapoport, 2010).
+
+ROIs showing 
+
 
 ## Effect of Motion on Morphometric and Volumetric Estimates
 
-Using the EPI images resulting from fMRI scans (whether task- or resting state-based), researchers can obtain a proxy for subject motion during the structural scan (see Alexander-Bloch et al., 2016; Pardoe et al., in press). 
-
-There now exists a large literature on the effects of motion in the rs-fMRI literature. However, given the nature of sMRI acquisition, motion correction for sMRI is still an open issue.
+Although neurodevelopmental trajectories constructed from sMRI data offer immense promise for elucidating the neuropathologies underlying psychiatric disorders such as ADHD, autism, and schizophrenia, researchers and clinicians interested in harnessing this potential face a number of significant challenges. Chief among these, especially when considering application to clinical populations of children and adolescents, is the issue of head motion. It is well known that such bulk motion results in degraded data. Even in images judged as free of motion artifact, motion messes things up (REFERENCE).
  
-Although sMRI holds immense promise for elucidating the neuropathologies underlying ADHD, autism, and schizophrenia, researchers and clinicians interested in harnessing its potential face a number of significant challenges. Chief among these, especially when considering application to clinical populations of children and adolescents, is the issue of head motion. It is well known that such bulk motion results in degraded data. Even in images judged as free of motion artifact, motion messes things up (REFERENCE).
+Despite the promise of these findings relating ADHD to aberrant neurodevelopmental trajectories, they remain provisional in light of the now well established confounding influence of head motion on morphometric and volumetric estimates derived from sMRI data. In a recent paper, Pardoe at al. (in press) investigated the effect of subject motion on the morphometric and volumetric estimates. Using three open access datasets involving children, adolescents, and adults with ADHD (ADHD-200; REFERENCE), autism (ABIDE; Di Martino et al., YEAR), and schizophrenia (COBRE; REFERENCE), they examined the effects of motion on cortical thickness estimates and
 
-In a recent paper, Pardoe at al. (in press) investiagted the effect of subject motion on the morphometric and volumetric estimates used to construct neurodevelopmental "growth charts." Using three open datasets involving children, adolescents, and adults with ADHD (ADHD-200; REFERENCE), autism (ABIDE; Di Martino et al., YEAR), and schizophrenia (COBRE; REFERENCE), they examined the effects of motion on cortical thickness estimates and
+With the importance of sMRI for clinical understanding and a shift from qualitative T1-weighted images to quantitative T1 maps (e.g., Deoni), ...
+
+Using the EPI images resulting from fMRI scans (whether task- or resting state-based), researchers can obtain a proxy for subject motion during the structural scan (see Alexander-Bloch et al., 2016; Pardoe et al., in press).  This approach has been successfully used by researchers 
+
+There now exists a large literature examining the effects of motion in the rs-fMRI literature. However, given the nature of sMRI acquisition, motion correction for sMRI is still an open issue.
 
 Pardoe at al. (in press) used the parameters obtained from rigid-body registration of rs-fMRI scans to approximate the amount of motion in the subject's sMRI scan. Given the ease of collection and subsequent ubiquity of rs-fMRI data, such an approach is widely used in the literature (REFERENCE). However, it is at best a noisy proxy for the true amount of subject "micro-movement" during an sMRI scan. As discussed by Pardoe et al. (in press): "anyone who is familiar with running an MRI scan knows that this assumed relationship will not always be true at the individual level. Sometimes an indivdual will move during the structural MRI and not during the rsfMRI acquisition, and vice versa. Furthermore, rsfMRI may not always be available." 
 
@@ -66,7 +74,7 @@ Navigator scans also increase scan time, which can make them less than ideal in 
 
 In contrast to internal navigator-based PMC systems, PMC systems can also make use of externally mounted optical cameras to track a subject's head motion and update the parameters of data acquisition on the fly. To illustrate this approach, consider the KinetiCor (Kineticor, HI, USA) system. KinetiCor utilizes an 
 
-"optical camera mounted on the inside of the scanner bore to track the motion of a passive Moire phase marker at 80 Hz frame rate (Maclaren et al., 2012). The Moire phase marker allows the three translational and three rotational degrees of freedom to be measured with precision on the order of tens of microns for the translations and hundredths of degrees for the rotations. Figure 1 shows a subject in a 32-channel head coil with the marker attached via a mold to the upper teeth. The information containing the position and orientation of the marker is sent to the scanner host computer, where the data are used to dynamically update the imaging FOV such that it follows the movement of the marker (Herbst et al., 2014; Herbst et al., 2012; Speck et al., 2006; Zaitsev et al., 2006)" (Friston?, online) 
+"optical camera mounted on the inside of the scanner bore to track the motion of a passive Moiré phase marker at 80 Hz frame rate (Maclaren et al., 2012). The Moiré phase marker allows the three translational and three rotational degrees of freedom to be measured with precision on the order of tens of microns for the translations and hundredths of degrees for the rotations. Figure 1 shows a subject in a 32-channel head coil with the marker attached via a mold to the upper teeth. The information containing the position and orientation of the marker is sent to the scanner host computer, where the data are used to dynamically update the imaging FOV such that it follows the movement of the marker (Herbst et al., 2014; Herbst et al., 2012; Speck et al., 2006; Zaitsev et al., 2006)" (Friston?, online) 
 
 Using a properly calibrated PMC system, the subject's head never leaves the scanner's field of view, thus obviating the need for the the post-acquisition re-alignments and artifact corrections discussed in the next section on retrospective motion correction (RMC).
 
@@ -76,7 +84,7 @@ In contrast to PMC techniques, RMC techniques involve the application of algorit
 
 #### Reconstruction Approaches
 
-Very preliminary and experimental approach to motion correction uses trial-and-error "autofocusing" (Aksoy et al., 2012) to reconstruct the image
+Very preliminary and experimental approach to motion correction uses a computationally intensive trial-and-error "auto-focusing" strategy (Aksoy et al., 2012) to reconstruct the image.
 
 #### Adding Covariates at the Group Level 
 
