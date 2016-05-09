@@ -36,6 +36,8 @@ ROIs showing
 
 ## Effect of Head Motion on Morphometric and Volumetric Estimates
 
+TODO: Add modified figures/analyses from Pardoe et al. paper?
+
 Although neurodevelopmental trajectories constructed from sMRI data offer immense promise for elucidating the neuropathologies underlying psychiatric disorders such as ADHD, autism, and schizophrenia, researchers and clinicians interested in harnessing this potential face a number of significant challenges. Chief among these, especially when considering application to clinical populations of children and adolescents, is the issue of head motion. It is well known that such bulk motion results in degraded data. Even in images judged as free of motion artifact, motion messes things up (REFERENCE).
  
 Despite the promise of these findings relating ADHD to aberrant neurodevelopmental trajectories, they remain provisional in light of the now well established confounding influence of head motion on morphometric and volumetric estimates derived from sMRI data. In a recent paper, Pardoe at al. (in press) investigated the effect of subject motion on the morphometric and volumetric estimates. Using three open access datasets involving children, adolescents, and adults with ADHD (ADHD-200; REFERENCE), autism (ABIDE; Di Martino et al., YEAR), and schizophrenia (COBRE; REFERENCE), they examined the effects of motion on cortical thickness estimates and gray matter estimates.
