@@ -34,19 +34,19 @@ Developmental delay in the thickness of the frontal lobes has been found in ADHD
 ROIs showing 
 
 
-## Effect of Motion on Morphometric and Volumetric Estimates
+## Effect of Head Motion on Morphometric and Volumetric Estimates
 
 Although neurodevelopmental trajectories constructed from sMRI data offer immense promise for elucidating the neuropathologies underlying psychiatric disorders such as ADHD, autism, and schizophrenia, researchers and clinicians interested in harnessing this potential face a number of significant challenges. Chief among these, especially when considering application to clinical populations of children and adolescents, is the issue of head motion. It is well known that such bulk motion results in degraded data. Even in images judged as free of motion artifact, motion messes things up (REFERENCE).
  
-Despite the promise of these findings relating ADHD to aberrant neurodevelopmental trajectories, they remain provisional in light of the now well established confounding influence of head motion on morphometric and volumetric estimates derived from sMRI data. In a recent paper, Pardoe at al. (in press) investigated the effect of subject motion on the morphometric and volumetric estimates. Using three open access datasets involving children, adolescents, and adults with ADHD (ADHD-200; REFERENCE), autism (ABIDE; Di Martino et al., YEAR), and schizophrenia (COBRE; REFERENCE), they examined the effects of motion on cortical thickness estimates and
+Despite the promise of these findings relating ADHD to aberrant neurodevelopmental trajectories, they remain provisional in light of the now well established confounding influence of head motion on morphometric and volumetric estimates derived from sMRI data. In a recent paper, Pardoe at al. (in press) investigated the effect of subject motion on the morphometric and volumetric estimates. Using three open access datasets involving children, adolescents, and adults with ADHD (ADHD-200; REFERENCE), autism (ABIDE; Di Martino et al., YEAR), and schizophrenia (COBRE; REFERENCE), they examined the effects of motion on cortical thickness estimates and gray matter estimates.
 
-With the importance of sMRI for clinical understanding and a shift from qualitative T1-weighted images to quantitative T1 maps (e.g., Deoni), ...
+With the importance of sMRI for clinical understanding and a shift from qualitative T1-weighted images to quantitative T1 maps (e.g., Deoni), … 
 
 Using the EPI images resulting from fMRI scans (whether task- or resting state-based), researchers can obtain a proxy for subject motion during the structural scan (see Alexander-Bloch et al., 2016; Pardoe et al., in press).  This approach has been successfully used by researchers 
 
 There now exists a large literature examining the effects of motion in the rs-fMRI literature. However, given the nature of sMRI acquisition, motion correction for sMRI is still an open issue.
 
-Pardoe at al. (in press) used the parameters obtained from rigid-body registration of rs-fMRI scans to approximate the amount of motion in the subject's sMRI scan. Given the ease of collection and subsequent ubiquity of rs-fMRI data, such an approach is widely used in the literature (REFERENCE). However, it is at best a noisy proxy for the true amount of subject "micro-movement" during an sMRI scan. As discussed by Pardoe et al. (in press): "anyone who is familiar with running an MRI scan knows that this assumed relationship will not always be true at the individual level. Sometimes an indivdual will move during the structural MRI and not during the rsfMRI acquisition, and vice versa. Furthermore, rsfMRI may not always be available." 
+Pardoe at al. (in press) used the parameters obtained from rigid-body registration of rs-fMRI scans to approximate the amount of motion in the subject's sMRI scan. Given the ease of collection and subsequent ubiquity of rs-fMRI data, such an approach is widely used in the literature (REFERENCE). However, it is at best a noisy proxy for the true amount of subject "micro-movement" during an sMRI scan. As discussed by Pardoe et al. (in press): "anyone who is familiar with running an MRI scan knows that this assumed relationship will not always be true at the individual level. Sometimes an individual will move during the structural MRI and not during the rsfMRI acquisition, and vice versa. Furthermore, rsfMRI may not always be available." 
 
 In addition to these concerns, the goodness of rs-fMRI data as a proxy for motion during the structural scan was assessed in relation to qualitative ratings of the structural scans, and micro-motion during the structural scan results in degradation of the sMRI image that raters often miss (REFERENCE). 
 
@@ -108,3 +108,4 @@ One final approach to dealing with subject motion is to control for the effects 
 * Alexander-Bloch, A., et al. (2016). [Subtle in-scanner motion biases automated measurement of brain anatomy from in vivo MRI.](http://www.sciencedirect.com/science/article/pii/S0896627310006835) *Human Brain Mapping.*
 * Aksoy, M. et al. (2012). [Hybrid prospective and retrospective head motion correction to mitigate cross-calibration errors.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3213297/) *Magnetic Resonance in Medicine.*
 * Chen, H. et al. (2015). [Quantile rank maps: A new tool for understanding individual brain development.](http://www.sciencedirect.com/science/article/pii/S1053811915000130) *NeuroImage.*
+* Woods-Frohlich, L., Martin, T., & Malisza, K. L. (2016). [Training Children to Reduce Motion and Increase Success of MRI Scanning.](http://www.eurekaselect.com/72014/article) *Current Medical Imaging Reviews.*
