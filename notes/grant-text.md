@@ -2,7 +2,7 @@
 
 ### The Importance of Neurodevelopmental Trajectories
 
-A recent trend in developmental and clinical neuroscience is the move away from cross-sectional towards longitudinal studies of brain development. There are many reasons for this focus on "neurodevelopmental trajectories." This partly results from a reconceptualization of mental illness as the result of abnormal brain development. Insell (2014) motivates this shift from a focus on overt behavioral symptoms to the trajectories of brain development (or "neurodevelopmental trajectories") underlying these symptoms. Viewed in this light, one strategy for diagnosing conditions such as attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, and schizophrenia is to identify their characteristic non-normative patterns of brain development, rather than focusing on overt behavioral symptoms. The hope is that by identifying non-normative neurodevelopmental trajectories, drug- or behavior-based interventions can be targeted toward putting an individual back on the road towards the normative trajectory of brain development. As Geidd and Rapaport (2010, p. 730) note in the context of ADHD , "clinical improvement is often mirrored by a convergence of developmental trajectories toward typical development and ... persistence of ADHD is accompanied by a progressive divergence away from typical development."
+A recent trend **[don't know if this is really a *recent* trend--add some bibliometrics?]** in developmental and clinical neuroscience is the move away from cross-sectional towards longitudinal studies of brain development in clinical and non-clinical populations. There are many reasons for this focus on "neurodevelopmental trajectories." This partly results from a reconceptualization of mental illness as the resulting from abnormal brain development. Insell (2014) motivates this shift from a focus on overt behavioral symptoms to neurodevelopmental trajectories underlying these symptoms. Viewed in this light, one strategy for diagnosing conditions such as attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, and schizophrenia is to identify their characteristic non-normative patterns of brain development, rather than focusing on overt behavioral symptoms. The hope is that by identifying non-normative neurodevelopmental trajectories, drug- or behavior-based interventions can be targeted toward putting an individual back on the road towards the normative trajectory of brain development. As Geidd and Rapaport (2010, p. 730) note in the context of ADHD , "clinical improvement is often mirrored by a convergence of developmental trajectories toward typical development and ... persistence of ADHD is accompanied by a progressive divergence away from typical development."
 
 Rather than assessing the absolute size of brain structures in isolation, the hope is that neurodevelopmental trajectories will lead the way toward psychiatric analogs of the "growth charts" used by pediatricians to identify aberrant patterns of body growth.
 
@@ -20,9 +20,7 @@ A recent trend in developmental neuroscience is a shift away from cross-sectiona
 
 Clinicians and researchers now view many of the most common and and debilitating psychiatric conditions as neurodevelopmental disorders. Viewed in this light, one strategy for diagnosing conditions such as attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder, and schizophrenia is to identify their characteristic non-normative patterns of brain development, rather than focusing on overt behavioral symptoms. The hope is that by identifying non-normative neurodevelopmental trajectories, drug- or behavior-based interventions can be targeted toward putting an individual back on the road towards the normative trajectory of brain development. As Geidd and Rapaport (2010, p. 730) note in the context of ADHD , "clinical improvement is often mirrored by a convergence of developmental trajectories toward typical development and ... persistence of ADHD is accompanied by a progressive divergence away from typical development."
 
-The hope is that research on neurodevelopmental trajectories will lead the way toward mental "growth charts," psychiatric analogs of the tools used by pediatricians to identify aberrant patterns of body growth.
-
-Given the dynamic nature of the process of brain development (REFERENCE), many researchers are moving away from cross-sectional to longitudinal studies.
+The hope is that research on neurodevelopmental trajectories will lead the way toward mental "growth charts," psychiatric analogs of the common chart used by pediatricians to identify aberrant patterns of body growth (Insell, 2014b).
 
 Although neurodevelopment can be studied using indices derived from a variety of techinques (e.g., rs-fMRI), the predominant modality is structural MRI (sMRI).
 
@@ -39,7 +37,7 @@ The starting point for the estimation of neurodevelopmental trajectories is the 
 
 ### Previous Findings in the Context of ADHD
 
-ADHD, the most common psychiatric disorder (REFERENCE), is characterized by a variaty of behavioral (e.g., hyperactivity) and cognitive (e.g., attentional difficulties) symptoms. It is commonly accepted that individuals with ADHD show non-normative neurodevelopmental trajectories. For example, developmental delays of up to XX years in the thickness of the frontal lobes has been found in ADHD (Geidd & Rapoport, 2010).
+ADHD, the most common childhood psychiatric disorder (REFERENCE), is characterized by both behavioral (e.g., hyperactivity) and cognitive (e.g., attentional difficulties) symptoms. It is commonly accepted that, relative to healthy controls, individuals with ADHD show delays in their neurodevelopmental trajectories. For example, developmental delays of up to XX years in the thickness of the frontal lobes has been found in ADHD (Geidd & Rapoport, 2010).
 
 ROIs
 
@@ -67,21 +65,26 @@ Thus, there remains a pressing need for accurate, automated methods of motion co
 
 ## Approaches to Motion Correction in MRI
 
-A number of techniques are approaches have been developed to aid clinicians and researchers interested in obtaining high quality sMRI data in clinical, child, and adolescent populations. Although we cannot hope to be exhaustive, below we list and draw distinctions between approaches we feel hold the most promise for application to hyperkinetic populations, such as children and adolescents with ADHD. For more comprehensive overviews, we direct the interested reader to Zaitsev et al. (2016) and Maclaren et al. (2012).
+Given the acquisitional costs of MRI data, clinicians and researchers working with head motion-prone populations have developed a variety of techniques to facilitate the collection of usuable data. Although we cannot hope to be exhaustive, below we provide a brief review of approaches we feel hold the most promise for application to the population of children and adolescents with ADHD. For more comprehensive overviews, we direct the interested reader to Zaitsev et al. (2016) and Maclaren et al. (2012).
 
-### Head Constraints and Behavioral Training
+### Restraint, Sedation, and Behavioral Training
 
-One approach to the problem of head motion may be broadly termed "motion control." The bluntest such approach to dealing with the problem of head motion during MRI scans is to physically restrain the head using bite bars or other means. Another, less blunt, approach is behavioral training, where the subject is trained to keep still. Both approaches are less than ideal. 
+One set of approaches to fixing the problem of subject head motion may be broadly termed "motion control." Perhaps the bluntest such approach to dealing with the problem of head motion during MRI scans is to physically restrain a subject's head. However, in addition to requiring a compliant subject, restraints are typically uncomfortable and not entirely effective.
+
+Another, less blunt, approach is behavioral training, where the subject is trained to keep still. Both approaches are less than ideal.
+
+Sedation is another option. However, patient safety and cost become and issue using this technique.
 
 ### Prospective Motion Correction
 
-Prospective motion correction (PMC) techniques update the parameters of the MRI acquisition sequence on the fly, obviating the need for RMC techniques. A variety of PMC approaches have been proposed (Maclaren et al., 2013), but these mainly fall into one of two categories: those that use internal navigators and those that use external cameras to track and record subject motion. 
+Prospective motion correction (PMC) techniques update the parameters of the MRI acquisition sequence in real time as the data are being acquired, obviating the need for the RMC techniques discussed below. Althougha variety of PMC approaches have been proposed (for a review, see Maclaren et al., 2012), PMC techniques mainly fall into one of two categories: those that use internal navigators and those that use external cameras to track and record subject motion.
+
 
 #### Internal Navigators
 
-MR navigator techniques use the existing MR scanner technology (cf. optical cameras) to collect data on subject movement.
+MR navigator techniques use the existing MR scanner technology (cf. optical cameras mounted on the scanner) to collect data on subject movement.
 
-Navigator scans also increase scan time, which can make them less than ideal in clinical applications.
+Navigator techniques also increase scan time, which can make them less than ideal in clinical applications.
 
 
 #### External Trackers
@@ -110,7 +113,8 @@ One final approach to dealing with subject motion is to control for the effects 
 
 ## References
 
-* Insell, T. R. (2014). Mental disorders in childhood: Shifting the focus from behavioral symptoms to neurodevelopmental trajectories. *Journal of the American Medical Association.*
+* Insell, T. R. (2014a). Mental disorders in childhood: Shifting the focus from behavioral symptoms to neurodevelopmental trajectories. *Journal of the American Medical Association.*
+* Insell, T. R. (2014b). A Growth chart for the mind. http://www.nimh.nih.gov/about/director/2014/a-growth-chart-for-the-mind.shtml
 * Callaghan, M. F. et al. (2015). [An evaluation of prospective motion correction (PMC) for high resolution quantitative MRI.](http://journal.frontiersin.org/article/10.3389/fnins.2015.00097/full) *Frontiers in Neuroscience.*
 * [Prospective motion correction of high-resolution magnetic resonance imaging data in children.](http://lcn.salk.edu/publications/Revelant%20Publications/Brown%20-%20Prospective%20motion%20correction%202010.pdf) *NeuroImage.*
 * Pardoe et al. (in press). [Motion and morphometry in clincial and nonclinical populations.](http://www.sciencedirect.com/science/article/pii/S1053811916301197) *NeuroImage.*
