@@ -90,7 +90,7 @@ Very preliminary and experimental approach to motion correction uses a computati
 
 #### Adding Covariates at the Group Level 
 
-One final approach to dealing with subject motion is to control for the effects of motion by adding group-level motion covariates in regression analyses. Such covariates are obtained via ...
+One final approach to dealing with subject motion is to control for the effects of motion by adding group-level motion covariates in GLM analyses.
 
 
 ## Proposed Research
