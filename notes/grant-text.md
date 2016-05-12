@@ -65,7 +65,7 @@ Thus, there remains a pressing need for accurate, automated methods of motion co
 
 ## Approaches to Motion Correction in MRI
 
-Given the acquisitional costs of MRI data, clinicians and researchers working with head motion-prone populations have developed a variety of techniques to facilitate the collection of usuable data. Although we cannot hope to be exhaustive, below we provide a brief review of approaches we feel hold the most promise for application to the population of children and adolescents with ADHD. For more comprehensive overviews, we direct the interested reader to Zaitsev et al. (2016) and Maclaren et al. (2012).
+Given the acquisitional costs of MRI data, clinicians and researchers working with head motion-prone populations have developed a variety of techniques to facilitate the collection of usuable data. Although we cannot hope to be exhaustive, below we provide a brief review of approaches we feel hold the most promise for application to the population of children and adolescents with ADHD. For more comprehensive overviews, we interested reader is directed to recent reviews by Zaitsev et al. (2016) and Maclaren et al. (2012).
 
 ### Restraint, Sedation, and Behavioral Training
 
