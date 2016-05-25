@@ -69,3 +69,20 @@ ggplot(data = gg_df) +
   geom_boxplot(aes(x = as.factor(motion.artifact), y = Qi1)) +
   xlab("Image Quality Rating (5 = Best)") +
   ylab("Qi1")
+
+# Function to add correlation coefficient to plot
+# http://stackoverflow.com/questions/31337922/adding-italicised-r-with-correlation-coefficient-to-a-scatter-plot-chart-in-ggpl
+corr_eqn <- function(x, y, digits = 2) {
+  corr_coef <- round(cor(x, y), digits = digits)
+  paste("italic(r) == ", corr_coef)
+}
+
+labels = data.frame(x = 0.5, y = 7.5, 
+                    label = corr_eqn(df[, "qap.mean.rms"], df[, "mean.rms"]))
+
+# NB: annotate with geom = "text" avoids the need for labels data frame
+ggplot(data = gg_df) + 
+  geom_point(aes(x = qap.mean.rms, y = mean.rms)) +
+  geom_text(data = labels, 
+            aes(x = x, y = y, label = label), 
+            parse = TRUE)
