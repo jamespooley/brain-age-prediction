@@ -4,6 +4,7 @@ library(stringr)
 library(ggplot2)
 
 qap_measures <- c("EFC", "FWHM", "Qi1", "SNR", "FBER")
+roi_names <- names(pardoe_df)[16:80]
 
 # TODO: Wrap all the code to organize the datasets into a function
 
@@ -32,7 +33,7 @@ df <- func_temp_df %>%
   #        id = str_pad(id, 7, pad = "0")) %>%
   merge(pardoe_df, by = c("id", "session", "run"))
 
-gg_df <- inner_join(df[, c("id", "session", "run", "mean.rms", "motion.artifact", "RMSD (Mean)")], 
+gg_df <- inner_join(df[, c("id", "session", "run", "mean.rms", "motion.artifact", "RMSD (Mean)", roi_names)], 
                    anat_spat_df[, c("id", "session", "run", qap_measures)], 
                    by = c("id", "session")) %>% 
   tbl_df
