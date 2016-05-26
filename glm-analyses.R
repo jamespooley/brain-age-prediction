@@ -125,34 +125,34 @@ ggplot(data = df) +
             aes(x = x, y = y, label = label), 
             parse = TRUE)
 
-# What's up with not all of Pardoe et al.'s subjects being in the ADHD-200 QAP numbers?
-
-qap_df <- func_temp_df %>%
-  rename(id = Participant,
-         session = Session,
-         run = Series) %>%
-  mutate(id = as.character(id),
-         id = str_pad(id, 7, pad = "0"))
-
-length(unique(pardoe_df$id))
-  
-pardoe_subjs <- pardoe_df$id
-found <- c()
-for (subj in pardoe_subjs) {
-  found <- c(found, subj %in% qap_df$id)
-}
-sum(found)
-
-length(setdiff(pardoe_df$id, qap_df$Participant))
-
-# Helper functions to extract regression weight estimates and p-values
-
-get_beta <- function(fit_summary, param) {
-  beta <- fit_summary$coefficients[param, "Estimate"]
-  beta
-}
-
-get_p <- function(fit_summary, param) {
-  p <- fit_summary$coefficients[param, "Pr(>|t|)"]
-  p
-}
+# # What's up with not all of Pardoe et al.'s subjects being in the ADHD-200 QAP numbers?
+# 
+# qap_df <- func_temp_df %>%
+#   rename(id = Participant,
+#          session = Session,
+#          run = Series) %>%
+#   mutate(id = as.character(id),
+#          id = str_pad(id, 7, pad = "0"))
+# 
+# length(unique(pardoe_df$id))
+#   
+# pardoe_subjs <- pardoe_df$id
+# found <- c()
+# for (subj in pardoe_subjs) {
+#   found <- c(found, subj %in% qap_df$id)
+# }
+# sum(found)
+# 
+# length(setdiff(pardoe_df$id, qap_df$Participant))
+# 
+# # Helper functions to extract regression weight estimates and p-values
+# 
+# get_beta <- function(fit_summary, param) {
+#   beta <- fit_summary$coefficients[param, "Estimate"]
+#   beta
+# }
+# 
+# get_p <- function(fit_summary, param) {
+#   p <- fit_summary$coefficients[param, "Pr(>|t|)"]
+#   p
+# }
