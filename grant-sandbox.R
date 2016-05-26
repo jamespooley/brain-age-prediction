@@ -2,6 +2,7 @@ library(readr)
 library(dplyr)
 library(stringr)
 library(ggplot2)
+library(purrr)
 
 #####################################################################
 # NB: This needs to be heavily refactoried fiven all the repetition #
@@ -115,6 +116,24 @@ for (roi in 11:75) {
   beta_age_mo_vector <- c(beta_age_mo_vector, beta_age_mo)
 }
 
+freesurfer.vol.summary <- data.frame(structure = struct_name_vector, 
+                                     p_val_interaction = p_int_val_vector,
+                                     beta_age_no = beta_age_no_vector,
+                                     p_age_val_mo = p_age_motion_vector,
+                                     beta_age_mo = beta_age_mo_vector,
+                                     p_age_val_no = p_age_nomotion_vector)
+
+freesurfer.vol.summary %>% 
+  tbl_df %>%
+  mutate(int_sig = p_val_interaction < .05,
+         int_fdr = p.adjust(p_val_interaction, "fdr"),
+         age_no_sig = p_age_val_no < .05,
+         age_mo_sig = p_age_val_no < .05,
+         age_diff = age_mo_sig != age_no_sig) %>% 
+  View
+
+results$diff_sig %>% sum(na.rm = TRUE)
+
 # QAP EFC --------------------------------------------------------------------
 
 struct_name_vector <- c()
@@ -166,6 +185,24 @@ for (roi in 11:75) {
   beta_age_no_vector <- c(beta_age_no_vector, beta_age_no)
   beta_age_mo_vector <- c(beta_age_mo_vector, beta_age_mo)
 }
+
+freesurfer.vol.summary <- data.frame(structure = struct_name_vector, 
+                                     p_val_interaction = p_int_val_vector,
+                                     beta_age_no = beta_age_no_vector,
+                                     p_age_val_mo = p_age_motion_vector,
+                                     beta_age_mo = beta_age_mo_vector,
+                                     p_age_val_no = p_age_nomotion_vector)
+
+freesurfer.vol.summary %>% 
+  tbl_df %>%
+  mutate(int_sig = p_val_interaction < .05,
+         int_fdr = p.adjust(p_val_interaction, "fdr"),
+         age_no_sig = p_age_val_no < .05,
+         age_mo_sig = p_age_val_no < .05,
+         age_diff = age_mo_sig != age_no_sig) %>% 
+  View
+
+results$diff_sig %>% sum(na.rm = TRUE)
 
 # QAP FWHM -------------------------------------------------------------------
 
@@ -219,6 +256,24 @@ for (roi in 11:75) {
   beta_age_mo_vector <- c(beta_age_mo_vector, beta_age_mo)
 }
 
+freesurfer.vol.summary <- data.frame(structure = struct_name_vector, 
+                                     p_val_interaction = p_int_val_vector,
+                                     beta_age_no = beta_age_no_vector,
+                                     p_age_val_mo = p_age_motion_vector,
+                                     beta_age_mo = beta_age_mo_vector,
+                                     p_age_val_no = p_age_nomotion_vector)
+
+freesurfer.vol.summary %>% 
+  tbl_df %>%
+  mutate(int_sig = p_val_interaction < .05,
+         int_fdr = p.adjust(p_val_interaction, "fdr"),
+         age_no_sig = p_age_val_no < .05,
+         age_mo_sig = p_age_val_no < .05,
+         age_diff = age_mo_sig != age_no_sig) %>% 
+  View
+
+results$diff_sig %>% sum(na.rm = TRUE)
+
 # QAP Qi1 --------------------------------------------------------------------
 
 struct_name_vector <- c()
@@ -270,6 +325,24 @@ for (roi in 11:75) {
   beta_age_no_vector <- c(beta_age_no_vector, beta_age_no)
   beta_age_mo_vector <- c(beta_age_mo_vector, beta_age_mo)
 }
+
+freesurfer.vol.summary <- data.frame(structure = struct_name_vector, 
+                                     p_val_interaction = p_int_val_vector,
+                                     beta_age_no = beta_age_no_vector,
+                                     p_age_val_mo = p_age_motion_vector,
+                                     beta_age_mo = beta_age_mo_vector,
+                                     p_age_val_no = p_age_nomotion_vector)
+
+freesurfer.vol.summary %>% 
+  tbl_df %>%
+  mutate(int_sig = p_val_interaction < .05,
+         int_fdr = p.adjust(p_val_interaction, "fdr"),
+         age_no_sig = p_age_val_no < .05,
+         age_mo_sig = p_age_val_no < .05,
+         age_diff = age_mo_sig != age_no_sig) %>% 
+  View
+
+results$diff_sig %>% sum(na.rm = TRUE)
 
 # QAP SNR --------------------------------------------------------------------
 
@@ -323,6 +396,24 @@ for (roi in 11:75) {
   beta_age_mo_vector <- c(beta_age_mo_vector, beta_age_mo)
 }
 
+freesurfer.vol.summary <- data.frame(structure = struct_name_vector, 
+                                     p_val_interaction = p_int_val_vector,
+                                     beta_age_no = beta_age_no_vector,
+                                     p_age_val_mo = p_age_motion_vector,
+                                     beta_age_mo = beta_age_mo_vector,
+                                     p_age_val_no = p_age_nomotion_vector)
+
+freesurfer.vol.summary %>% 
+  tbl_df %>%
+  mutate(int_sig = p_val_interaction < .05,
+         int_fdr = p.adjust(p_val_interaction, "fdr"),
+         age_no_sig = p_age_val_no < .05,
+         age_mo_sig = p_age_val_no < .05,
+         age_diff = age_mo_sig != age_no_sig) %>% 
+  View
+
+results$diff_sig %>% sum(na.rm = TRUE)
+
 # QAP FBER -------------------------------------------------------------------
 
 struct_name_vector <- c()
@@ -374,3 +465,21 @@ for (roi in 11:75) {
   beta_age_no_vector <- c(beta_age_no_vector, beta_age_no)
   beta_age_mo_vector <- c(beta_age_mo_vector, beta_age_mo)
 }
+
+freesurfer.vol.summary <- data.frame(structure = struct_name_vector, 
+                                     p_val_interaction = p_int_val_vector,
+                                     beta_age_no = beta_age_no_vector,
+                                     p_age_val_mo = p_age_motion_vector,
+                                     beta_age_mo = beta_age_mo_vector,
+                                     p_age_val_no = p_age_nomotion_vector)
+
+freesurfer.vol.summary %>% 
+  tbl_df %>%
+  mutate(int_sig = p_val_interaction < .05,
+         int_fdr = p.adjust(p_val_interaction, "fdr"),
+         age_no_sig = p_age_val_no < .05,
+         age_mo_sig = p_age_val_no < .05,
+         age_diff = age_mo_sig != age_no_sig) %>% 
+  View
+
+results$diff_sig %>% sum(na.rm = TRUE)
