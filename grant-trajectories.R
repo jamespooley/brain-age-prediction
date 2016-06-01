@@ -1,10 +1,11 @@
-library(nlme)
+# library(nlme)
 library(ggplot2)
 
 pardoe_file <- "data/pardoe.motion.morphometry.20160416.csv"
 motion_df <- read.csv(pardoe_file) %>% 
   filter(study == "adhd",
-         motion.artifact %in% c(1, 2)) %>% 
+         motion.artifact %in% c(1, 2),
+         diagnosis == "adhd") %>% 
   mutate(age_cent = age - mean(age, na.rm = TRUE),
          age_cent2 = age_cent^2,
          age_cent3 = age_cent^3)
@@ -30,11 +31,10 @@ linear_fit <- lm(freesurfer.TotalGrayVol ~ age_cent + diagnosis + site + gender 
 quadratic_fit <- lm(freesurfer.TotalGrayVol ~ poly(age_cent, 2) + diagnosis + site + gender + mean.rms, data = motion_df)
 cubic_fit <- lm(freesurfer.TotalGrayVol ~ poly(age_cent, 3) + diagnosis + site + gender + mean.rms, data = motion_df)
 
+global_fits <- list(linear_fit, quadratic_fit, cubic_fit)
+lapply(global_fits, summary)
+
 AIC(linear_fit, quadratic_fit, cubic_fit)
-
-
-rois <- names(motion_df[16:80])
-rois
 
 # for (roi in rois) {
 #   
@@ -79,16 +79,21 @@ rois
 #   
 # }
 
+rois <- names(motion_df[16:80])
+rois
+
 get_coefficient_p_value <- function(fit_summary, param, df) {
   p <- fit_summary$coefficients[param, "Pr(>|t|)"]
   p
 }
 
+# TODO (DRY): Combine the following two functions into one function
+
 get_best_without_motion <- function(roi, df) {
   
-  fmla_linear <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + sex"))
-  fmla_quadratic <- as.formula(paste0(roi," ~ age_cent + age_cent2 + diagnosis + site + sex"))
-  fmla_cubic <- as.formula(paste0(roi," ~ age_cent + age_cent2 + age_cent3 + diagnosis + site + sex"))
+  fmla_linear <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + sex + age_cent:diagnosis"))
+  fmla_quadratic <- as.formula(paste0(roi," ~ age_cent + age_cent2 + diagnosis + site + sex + age_cent:diagnosis"))
+  fmla_cubic <- as.formula(paste0(roi," ~ age_cent + age_cent2 + age_cent3 + diagnosis + site + sex + age_cent:diagnosis"))
   
   fit_linear <- lm(fmla_linear, data = df)
   fit_quadratic <- lm(fmla_quadratic, data = df)
@@ -119,9 +124,9 @@ get_best_without_motion <- function(roi, df) {
 # TODO: pass in motion estimate as a parameter for Pardoe vs. QAP comparisons
 get_best_with_motion <- function(roi, motion_estimate, df) {
   
-  fmla_linear <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + sex + ", motion_estimate))
-  fmla_quadratic <- as.formula(paste0(roi," ~ age_cent + age_cent2 + diagnosis + site + sex + ", motion_estimate))
-  fmla_cubic <- as.formula(paste0(roi," ~ age_cent + age_cent2 + age_cent3 + diagnosis + site + sex + ", motion_estimate))
+  fmla_linear <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + sex + age_cent:diagnosis +", motion_estimate))
+  fmla_quadratic <- as.formula(paste0(roi," ~ age_cent + age_cent2 + diagnosis + site + sex + age_cent:diagnosis +", motion_estimate))
+  fmla_cubic <- as.formula(paste0(roi," ~ age_cent + age_cent2 + age_cent3 + diagnosis + site + sex + age_cent:diagnosis +", motion_estimate))
   
   fit_linear <- lm(fmla_linear, data = df)
   fit_quadratic <- lm(fmla_quadratic, data = df)
@@ -157,7 +162,7 @@ best_model_with_motion_qi1 <- sapply(roi_list, get_best_with_motion, "Qi1", anal
 roi_trajectory_results <- as.data.frame(rois) %>% 
   mutate(best_model_without_motion = best_model_without_motion,
          best_model_with_motion_snr = best_model_with_motion_snr,
-         best_model_with_motion_snr = best_model_with_motion_qi1,
+         best_model_with_motion_qi1 = best_model_with_motion_qi1,
          different_snr = best_model_without_motion != best_model_with_motion_snr,
          different_qi1 = best_model_without_motion != best_model_with_motion_qi1)
 
