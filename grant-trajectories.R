@@ -89,6 +89,12 @@ get_coefficient_p_value <- function(fit_summary, param, df) {
   p
 }
 
+# Helper function to get model's R^2 value 
+get_r2 <- function(fit_summary) {
+  r2 <- fit_summary$r.squared
+  r2
+}
+
 # Helper function to get model's F-statistic
 get_f_statistic <- function(fit_summary) {
   f <- fit_summary$fstatistic
