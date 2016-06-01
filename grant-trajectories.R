@@ -79,16 +79,25 @@ AIC(linear_fit, quadratic_fit, cubic_fit)
 #   
 # }
 
-rois <- names(motion_df[16:80])
-rois
 
+rois <- names(motion_df[16:80])  # Get FreeSurfer ROI names from Pardoe et al.'s data
+roi_list <- as.list(rois)  # Convert to list for easy programming
+
+# Helper function to get p-value for regression coefficients
 get_coefficient_p_value <- function(fit_summary, param, df) {
   p <- fit_summary$coefficients[param, "Pr(>|t|)"]
   p
 }
 
+# Helper function to get model's F-statistic
+get_f_statistic <- function(fit_summary) {
+  f <- fit_summary$fstatistic
+  f
+}
+
 # TODO (DRY): Combine the following two functions into one function
 
+# Function to get order of best model when no motion covariate used
 get_best_without_motion <- function(roi, df) {
   
   fmla_linear <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + sex + age_cent:diagnosis"))
@@ -121,7 +130,7 @@ get_best_without_motion <- function(roi, df) {
 }
 
 
-# TODO: pass in motion estimate as a parameter for Pardoe vs. QAP comparisons
+# Function to get order of best model when motion covariate used
 get_best_with_motion <- function(roi, motion_estimate, df) {
   
   fmla_linear <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + sex + age_cent:diagnosis +", motion_estimate))
@@ -154,11 +163,12 @@ get_best_with_motion <- function(roi, motion_estimate, df) {
 }
 
 
-roi_list <- as.list(rois)
+# Get vector of model orders using various motion estimates
 best_model_without_motion <- sapply(roi_list, get_best_without_motion, analysis_df)
 best_model_with_motion_snr <- sapply(roi_list, get_best_with_motion, "SNR", analysis_df)
 best_model_with_motion_qi1 <- sapply(roi_list, get_best_with_motion, "Qi1", analysis_df)
 
+# Make a nice data frame of results
 roi_trajectory_results <- as.data.frame(rois) %>% 
   mutate(best_model_without_motion = best_model_without_motion,
          best_model_with_motion_snr = best_model_with_motion_snr,
@@ -166,4 +176,5 @@ roi_trajectory_results <- as.data.frame(rois) %>%
          different_snr = best_model_without_motion != best_model_with_motion_snr,
          different_qi1 = best_model_without_motion != best_model_with_motion_qi1)
 
+# Inspect the data frame
 roi_trajectory_results %>% View
