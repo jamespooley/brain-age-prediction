@@ -153,26 +153,56 @@ roi_trajectory_results %>% View
 #########################################
 
 # Helper function to get the age of peak cortical thickness for a single ROI
-get_peak_age <- function(roi, get_best_model, motion_estimate = NULL, df) {
+get_peak_age <- function(roi, get_best_model, df, diagnosis, site, sex, motion_estimate = NULL) {
   
-  best_model <- get_best_model(roi, motion_estimate, df)
+  df <- df %>% 
+    filter(diagnosis == diagnosis, site == site, sex == sex)
+  
+  if (!is.null(motion_estimate)) {
+    fmla_linear <- as.formula(paste0(roi," ~ poly(age, degree = 1, raw = TRUE) +", motion_estimate))
+    fmla_quadratic <- as.formula(paste0(roi," ~ poly(age, degree = 2, raw = TRUE) +", motion_estimate))
+    fmla_cubic <- as.formula(paste0(roi," ~ poly(age, degree = 3, raw = TRUE) +", motion_estimate))
+  } else {
+    fmla_linear <- as.formula(paste0(roi," ~ poly(age, degree = 1, raw = TRUE)"))
+    fmla_quadratic <- as.formula(paste0(roi," ~ poly(age, degree = 2, raw = TRUE)"))
+    fmla_cubic <- as.formula(paste0(roi," ~ poly(age, degree = 3, raw = TRUE)"))
+  }
+  
+  fit_linear <- lm(fmla_linear, data = df)
+  fit_quadratic <- lm(fmla_quadratic, data = df)
+  fit_cubic <- lm(fmla_cubic, data = df)
+  
+  fits <- list(fit_linear, fit_quadratic, fit_cubic)
+
+  summaries <- lapply(fits, summary)
+  p1 <- get_coefficient_p_value(summaries[[1]], "poly(age, degree = 1, raw = TRUE)")
+  p2 <- get_coefficient_p_value(summaries[[2]], "poly(age, degree = 2, raw = TRUE)2")
+  p3 <- get_coefficient_p_value(summaries[[3]], "poly(age, degree = 3, raw = TRUE)3")
+  
+  
+  model_comparison <- AIC(fit_linear, fit_quadratic, fit_cubic)
+  
+  if (p3 < .05 & model_comparison$AIC[3] < model_comparison$AIC[2] & model_comparison$AIC[3] < model_comparison$AIC[1]) {
+    best_model <- 3
+  } else if (p2 < .05 & model_comparison$AIC[2] < model_comparison$AIC[1]) {
+    best_model <- 2
+  } else
+    best_model <- 1
   
   # If the best-fitting model is first-order linear, then just output a sentinel value ...
   if (best_model == 1) {
     peak_age <- -999
   # ... otherwise construct the appropriate model formula
   } else if (best_model == 2) {
-    fmla <- as.formula(paste0(roi," ~ poly(age, degree = 2, raw = TRUE) + diagnosis + site + sex + age:diagnosis +", 
-                              motion_estimate))
+    fmla <- as.formula(paste0(roi," ~ poly(age, degree = 2, raw = TRUE) +", motion_estimate))
   } else
-    fmla <- as.formula(paste0(roi," ~ poly(age, degree = 3, raw = TRUE) + diagnosis + site + sex + age:diagnosis +", 
-                              motion_estimate))
+    fmla <- as.formula(paste0(roi," ~ poly(age, degree = 3, raw = TRUE) +", motion_estimate))
   
   # Fit the appropriate model
   fit <- lm(fmla, data = df)
   
   age_range <- range(df$age)
-  age <- seq(age_range[1], age_range[2], by = 0.1)
+  age <- seq(age_range[1], age_range[2], by = 0.01)
   n_ages <- length(age)
   sex <- rep(sex, length = n_ages)
   site <- rep(site, length = n_ages)
@@ -190,4 +220,5 @@ get_peak_age <- function(roi, get_best_model, motion_estimate = NULL, df) {
   peak_age
 }
 
-peak_ages <- sapply(roi_list, get_peak_age)
+peak_ages_tdc_no_motion <- sapply(roi_list, get_peak_age, get_best_without_motion_mnml)
+peak_ages_adhd_no_motion <- sapply(roi_list, get_peak_age, get_best_without_motion_mnml)
