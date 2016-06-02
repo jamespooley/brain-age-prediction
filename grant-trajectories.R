@@ -1,14 +1,14 @@
 # library(nlme)
+library(dplyr)
 library(ggplot2)
 
 pardoe_file <- "data/pardoe.motion.morphometry.20160416.csv"
 motion_df <- read.csv(pardoe_file) %>% 
-  filter(study == "adhd",
-         motion.artifact %in% c(1, 2),
-         diagnosis == "adhd") %>% 
+  filter(study == "adhd") %>% 
   mutate(age_cent = age - mean(age, na.rm = TRUE),
          age_cent2 = age_cent^2,
          age_cent3 = age_cent^3)
+# motion.artifact %in% c(1, 2),
 
 # NOTE: USING ANALYSIS_DF AND NOT MOTION_DF
 
@@ -153,17 +153,19 @@ roi_trajectory_results %>% View
 #########################################
 
 # Helper function to get the age of peak cortical thickness for a single ROI
-get_peak_age <- function(roi, best_models, motion_estimate, df) {
+get_peak_age <- function(roi, get_best_model, motion_estimate = NULL, df) {
   
-  model_order_idx <- which(rois == roi)
-  best_model <- best_models[model_order_idx]
+  best_model <- get_best_model(roi, motion_estimate, df)
   
   # If the best-fitting model is first-order linear, then just output a sentinel value ...
   if (best_model == 1) {
     peak_age <- -999
   # ... otherwise construct the appropriate model formula
-  } else
+  } else if (best_model == 2) {
     fmla <- as.formula(paste0(roi," ~ poly(age, degree = 2, raw = TRUE) + diagnosis + site + sex + age:diagnosis +", 
+                              motion_estimate))
+  } else
+    fmla <- as.formula(paste0(roi," ~ poly(age, degree = 3, raw = TRUE) + diagnosis + site + sex + age:diagnosis +", 
                               motion_estimate))
   
   # Fit the appropriate model
@@ -176,12 +178,10 @@ get_peak_age <- function(roi, best_models, motion_estimate, df) {
   site <- rep(site, length = n_ages)
   diagnosis <- rep(diagnosis, length = n_ages)
   
-  # TODO: add the centering and the squaring and the cubing
   new_df <- data.frame(age = age,
                        sex = sex,
-                       diagnosis = diagnosis
+                       diagnosis = diagnosis,
                        site = site)
-  new_df$age_cent
   
   model_preds <- predict(best_model, new_df)
   
@@ -190,4 +190,4 @@ get_peak_age <- function(roi, best_models, motion_estimate, df) {
   peak_age
 }
 
-lapply(roi_list, get_peak_age, )
+peak_ages <- sapply(roi_list, get_peak_age)
