@@ -36,48 +36,10 @@ lapply(global_fits, summary)
 
 AIC(linear_fit, quadratic_fit, cubic_fit)
 
-# for (roi in rois) {
-#   
-#   # Linear model
-#   fmla_linear_without <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + gender"))
-#   fmla_linear_with <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + gender + mean.rms"))
-#   fit_linear_without <- lm(fmla_linear_without, data = motion_df)
-#   fit_linear_with <- lm(fmla_linear_with, data = motion_df)
-#   
-#   fmla_linear_without <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + gender"))
-#   fmla_linear_with <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + gender + mean.rms"))
-#   fit_linear_without <- lm(fmla_linear_without, data = motion_df)
-#   fit_linear_with <- lm(fmla_linear_with, data = motion_df)
-#   
-#   # Quadratic model
-#   fmla_quadratic_without <- as.formula(paste0(roi," ~ age_cent + age_cent2 + diagnosis + site + gender"))
-#   fmla_quadratic_with <- as.formula(paste0(roi," ~ age_cent + age_cent2 + diagnosis + site + gender + mean.rms"))
-#   fit_quadratic_without <- lm(fmla_quadratic_without, data = motion_df)
-#   fit_quadratic_with <- lm(fmla_quadratic_with, data = motion_df)
-#   
-#   fmla_quadratic_without <- as.formula(paste0(roi," ~ poly(age_cent, 2) + diagnosis + site + gender"))
-#   fmla_quadratic_with <- as.formula(paste0(roi," ~ poly(age_cent, 2) + diagnosis + site + gender + mean.rms"))
-#   fit_quadratic_without <- lm(fmla_quadratic_without, data = motion_df)
-#   fit_quadratic_with <- lm(fmla_quadratic_with, data = motion_df)
-#   
-#   # Cubic model
-#   fmla_cubic_without <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + gender"))
-#   fmla_cubic_with <- as.formula(paste0(roi," ~ age_cent + diagnosis + site + gender + mean.rms"))
-#   fit_cubic_without <- lm(fmla_cubic_without, data = motion_df)
-#   fit_cubic_with <- lm(fmla_cubic_with, data = motion_df)
-#   
-#   fmla_cubic_without <- as.formula(paste0(roi," ~ poly(age_cent, 3) + diagnosis + site + gender"))
-#   fmla_cubic_with <- as.formula(paste0(roi," ~ poly(age_cent, 3) + diagnosis + site + gender + mean.rms"))
-#   fit_cubic_without <- lm(fmla_cubic_without, data = motion_df)
-#   fit_cubic_with <- lm(fmla_cubic_with, data = motion_df)
-#   
-#   print(roi)
-#   print("WITHOUT motion covariate")
-#   print(AIC(fit_linear_without, fit_quadratic_without, fit_cubic_without))
-#   print("WITH motion covariate")
-#   print(AIC(fit_linear_with, fit_quadratic_with, fit_cubic_with))
-#   
-# }
+
+#############################################################
+# ORDER OF BEST-FITTING NEURODEVELOPMENTAL TRAJECTORY MODEL #
+#############################################################
 
 
 rois <- names(motion_df[16:80])  # Get FreeSurfer ROI names from Pardoe et al.'s data
@@ -184,3 +146,48 @@ roi_trajectory_results <- as.data.frame(rois) %>%
 
 # Inspect the data frame
 roi_trajectory_results %>% View
+
+
+#########################################
+# AGE OF PEAK CORTICAL THICKNESS/VOLUME #
+#########################################
+
+# Helper function to get the age of peak cortical thickness for a single ROI
+get_peak_age <- function(roi, best_models, motion_estimate, df) {
+  
+  model_order_idx <- which(rois == roi)
+  best_model <- best_models[model_order_idx]
+  
+  # If the best-fitting model is first-order linear, then just output a sentinel value ...
+  if (best_model == 1) {
+    peak_age <- -999
+  # ... otherwise construct the appropriate model formula
+  } else
+    fmla <- as.formula(paste0(roi," ~ poly(age, degree = 2, raw = TRUE) + diagnosis + site + sex + age:diagnosis +", 
+                              motion_estimate))
+  
+  # Fit the appropriate model
+  fit <- lm(fmla, data = df)
+  
+  age_range <- range(df$age)
+  age <- seq(age_range[1], age_range[2], by = 0.1)
+  n_ages <- length(age)
+  sex <- rep(sex, length = n_ages)
+  site <- rep(site, length = n_ages)
+  diagnosis <- rep(diagnosis, length = n_ages)
+  
+  # TODO: add the centering and the squaring and the cubing
+  new_df <- data.frame(age = age,
+                       sex = sex,
+                       diagnosis = diagnosis
+                       site = site)
+  new_df$age_cent
+  
+  model_preds <- predict(best_model, new_df)
+  
+  peak_age_idx <- which.max(best_model_preds)
+  peak_age <- new_df$ages[peak_age_idx]
+  peak_age
+}
+
+lapply(roi_list, get_peak_age, )
